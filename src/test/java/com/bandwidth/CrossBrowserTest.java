@@ -15,7 +15,8 @@ public class CrossBrowserTest {
 	@Parameters({ "browser", "hubURL" })
 	@BeforeMethod
 	public void setup(String browser, String hubURL) throws Exception {
-		FrameworkGlobalVariables.EXECUTION_ENV = "LOCAL";
+		FrameworkGlobalVariables.BROWSER = browser;
+		FrameworkGlobalVariables.EXECUTION_ENV = "LAMBDATEST";
 		driver = WebDriverFactory.createInstance(browser, hubURL);
 
 		if (driver == null)

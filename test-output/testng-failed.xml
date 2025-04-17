@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [CrossBrowserSuite]" guice-stage="DEVELOPMENT" verbose="3">
+<suite thread-count="4" parallel="tests" name="Failed suite [CrossBrowserSuite]" guice-stage="DEVELOPMENT" verbose="3">
   <parameter name="hubURL" value="http://localhost:4444/wd/hub"/>
-  <test thread-count="5" parallel="tests" name="FirefoxTest(failed)" verbose="3">
-    <parameter name="browser" value="firefox"/>
+  <test thread-count="4" parallel="tests" name="ChromeTest(failed)" verbose="3">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.bandwidth.CrossBrowserTest">
         <methods>
@@ -13,17 +13,5 @@
         </methods>
       </class> <!-- com.bandwidth.CrossBrowserTest -->
     </classes>
-  </test> <!-- FirefoxTest(failed) -->
-  <test thread-count="5" parallel="tests" name="SafariTest(failed)" verbose="3">
-    <parameter name="browser" value="safari"/>
-    <classes>
-      <class name="com.bandwidth.CrossBrowserTest">
-        <methods>
-          <include name="setup"/>
-          <include name="launchSiteAndClick"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.bandwidth.CrossBrowserTest -->
-    </classes>
-  </test> <!-- SafariTest(failed) -->
+  </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [CrossBrowserSuite] -->
