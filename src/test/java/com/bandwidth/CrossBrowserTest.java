@@ -3,21 +3,24 @@ package com.bandwidth;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.SkipException;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
-import com.bandwidth.commons.FrameworkGlobalVariables;
+import com.bandwidth.commons.TestCaseInputs;
 import com.bandwidth.commons.Driver.WebDriverFactory;
 
 public class CrossBrowserTest {
 
 	WebDriver driver;
 
-	@Parameters({ "browser", "hubURL" })
+	@Parameters("browser")
 	@BeforeMethod
-	public void setup(String browser, String hubURL) throws Exception {
-		FrameworkGlobalVariables.BROWSER = browser;
-		FrameworkGlobalVariables.EXECUTION_ENV = "LAMBDATEST";
-		driver = WebDriverFactory.createInstance(browser, hubURL);
+	public void setup(String browser) throws Exception {
+		TestCaseInputs.setBrowser(browser);
+		TestCaseInputs.setEnv(System.getProperty("env", "LOCAL"));
+		driver = WebDriverFactory.createInstance();
 
 		if (driver == null)
 			throw new SkipException("Driver is NULL. Execution skipped");
@@ -35,5 +38,6 @@ public class CrossBrowserTest {
 	public void tearDown() {
 		if (driver != null)
 			driver.quit();
+		TestCaseInputs.clear();
 	}
 }

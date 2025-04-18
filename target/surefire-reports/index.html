@@ -143,13 +143,12 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;CrossBrowserSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;parameter name=&quot;hubURL&quot; value=&quot;http://localhost:4444/wd/hub&quot;/&gt;
-  &lt;test thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;ChromeTest&quot; verbose=&quot;0&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;SafariTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;safari&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.bandwidth.CrossBrowserTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+  &lt;/test&gt; &lt;!-- SafariTest --&gt;
 &lt;/suite&gt; &lt;!-- CrossBrowserSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -161,7 +160,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">ChromeTest (1 class)</span>
+                <span class="test-name">SafariTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -191,12 +190,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'launchSiteAndClick')
 data.setCell(0, 2, 'com.bandwidth.CrossBrowserTest')
-data.setCell(0, 3, 19170);
+data.setCell(0, 3, 10383);
 window.suiteTableData['CrossBrowserSuite']= { tableData: data, tableDiv: 'times-div-CrossBrowserSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-CrossBrowserSuite">
               </div> <!-- times-div-CrossBrowserSuite -->
             </div> <!-- times-div -->
@@ -224,16 +223,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.bandwidth.CrossBrowserTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setup(chrome, http://localhost:4444/wd/hub)</span>
+                <span class="method-name">setup(safari)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">launchSiteAndClick</span>
-                <span class="method-start">13034 ms</span>
+                <span class="method-start">11092 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32210 ms</span>
+                <span class="method-start">21478 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

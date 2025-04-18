@@ -5,13 +5,14 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.SkipException;
 
-import com.bandwidth.commons.FrameworkGlobalVariables;
+import com.bandwidth.commons.TestCaseInputs;
 
 public class LocalExecutionCapabilities {
 
 	public DesiredCapabilities getDesiredCapabilities() {
 		DesiredCapabilities cap = new DesiredCapabilities();
-		String browser = FrameworkGlobalVariables.BROWSER;
+		String browser = TestCaseInputs.getBrowser();
+		System.out.println(browser);
 
 		switch (browser.toLowerCase()) {
 		case "chrome":
