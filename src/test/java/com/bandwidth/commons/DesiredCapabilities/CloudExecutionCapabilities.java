@@ -19,7 +19,7 @@ public class CloudExecutionCapabilities {
 		// === Common Capabilities ===
 		HashMap<String, Object> ltOptions = new HashMap<String, Object>();
 		ltOptions.put("build", "LambdaTest Cross Browser Suite");
-		ltOptions.put("name", "CrossBrowserTest");
+		ltOptions.put("name", "CrossBrowserTest" + "-" + browser);
 		ltOptions.put("browserVersion", "latest");
 		ltOptions.put("network", true);
 		ltOptions.put("console", true);
