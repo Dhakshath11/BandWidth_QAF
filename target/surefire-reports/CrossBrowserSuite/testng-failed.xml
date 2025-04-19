@@ -13,4 +13,16 @@
       </class> <!-- com.bandwidth.CrossBrowserTest -->
     </classes>
   </test> <!-- SafariTest(failed) -->
+  <test thread-count="4" parallel="tests" name="FirefoxTest(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.bandwidth.CrossBrowserTest">
+        <methods>
+          <include name="setup"/>
+          <include name="launchSiteAndClick"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bandwidth.CrossBrowserTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [CrossBrowserSuite] -->

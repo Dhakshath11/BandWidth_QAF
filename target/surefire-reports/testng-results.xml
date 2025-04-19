@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="2" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-18T15:23:11 IST" name="CrossBrowserSuite" finished-at="2025-04-18T15:23:49 IST" duration-ms="37351">
+  <suite started-at="2025-04-19T18:26:01 IST" name="CrossBrowserSuite" finished-at="2025-04-19T18:26:36 IST" duration-ms="34780">
     <groups>
     </groups>
-    <test started-at="2025-04-18T15:23:11 IST" name="SafariTest" finished-at="2025-04-18T15:23:34 IST" duration-ms="22579">
+    <test started-at="2025-04-19T18:26:01 IST" name="SafariTest" finished-at="2025-04-19T18:26:01 IST" duration-ms="160">
       <class name="com.bandwidth.CrossBrowserTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bandwidth.CrossBrowserTest@6892b3b6]" started-at="2025-04-18T15:23:12 IST" name="setup" finished-at="2025-04-18T15:23:23 IST" duration-ms="11551" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bandwidth.CrossBrowserTest@6892b3b6]" started-at="2025-04-19T18:26:01 IST" name="setup" finished-at="2025-04-19T18:26:01 IST" duration-ms="63" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -15,22 +15,189 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Driver is NULL. Execution skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Driver is NULL. Execution skipped
+at com.bandwidth.CrossBrowserTest.setup(CrossBrowserTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="launchSiteAndClick()[pri:0, instance:com.bandwidth.CrossBrowserTest@6892b3b6]" started-at="2025-04-18T15:23:23 IST" name="launchSiteAndClick" finished-at="2025-04-18T15:23:34 IST" duration-ms="10510" status="PASS">
+        <test-method signature="launchSiteAndClick()[pri:0, instance:com.bandwidth.CrossBrowserTest@6892b3b6]" started-at="2025-04-19T18:26:01 IST" name="launchSiteAndClick" finished-at="2025-04-19T18:26:01 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Driver is NULL. Execution skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Driver is NULL. Execution skipped
+at com.bandwidth.CrossBrowserTest.setup(CrossBrowserTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchSiteAndClick -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bandwidth.CrossBrowserTest@6892b3b6]" started-at="2025-04-18T15:23:34 IST" name="tearDown" finished-at="2025-04-18T15:23:34 IST" duration-ms="377" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bandwidth.CrossBrowserTest@6892b3b6]" started-at="2025-04-19T18:26:01 IST" name="tearDown" finished-at="2025-04-19T18:26:01 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.bandwidth.CrossBrowserTest -->
     </test> <!-- SafariTest -->
-    <test started-at="2025-04-18T15:23:11 IST" name="ChromeTest" finished-at="2025-04-18T15:23:40 IST" duration-ms="28776">
+    <test started-at="2025-04-19T18:26:01 IST" name="FirefoxTest" finished-at="2025-04-19T18:26:01 IST" duration-ms="159">
       <class name="com.bandwidth.CrossBrowserTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bandwidth.CrossBrowserTest@729d991e]" started-at="2025-04-18T15:23:12 IST" name="setup" finished-at="2025-04-18T15:23:26 IST" duration-ms="14245" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bandwidth.CrossBrowserTest@1ed4ae0f]" started-at="2025-04-19T18:26:01 IST" name="setup" finished-at="2025-04-19T18:26:01 IST" duration-ms="63" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Driver is NULL. Execution skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Driver is NULL. Execution skipped
+at com.bandwidth.CrossBrowserTest.setup(CrossBrowserTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launchSiteAndClick()[pri:0, instance:com.bandwidth.CrossBrowserTest@1ed4ae0f]" started-at="2025-04-19T18:26:01 IST" name="launchSiteAndClick" finished-at="2025-04-19T18:26:01 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Driver is NULL. Execution skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Driver is NULL. Execution skipped
+at com.bandwidth.CrossBrowserTest.setup(CrossBrowserTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSiteAndClick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bandwidth.CrossBrowserTest@1ed4ae0f]" started-at="2025-04-19T18:26:01 IST" name="tearDown" finished-at="2025-04-19T18:26:01 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bandwidth.CrossBrowserTest -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2025-04-19T18:26:01 IST" name="ChromeTest" finished-at="2025-04-19T18:26:23 IST" duration-ms="21971">
+      <class name="com.bandwidth.CrossBrowserTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bandwidth.CrossBrowserTest@729d991e]" started-at="2025-04-19T18:26:01 IST" name="setup" finished-at="2025-04-19T18:26:06 IST" duration-ms="5243" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,42 +208,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="launchSiteAndClick()[pri:0, instance:com.bandwidth.CrossBrowserTest@729d991e]" started-at="2025-04-18T15:23:26 IST" name="launchSiteAndClick" finished-at="2025-04-18T15:23:40 IST" duration-ms="14017" status="PASS">
+        <test-method signature="launchSiteAndClick()[pri:0, instance:com.bandwidth.CrossBrowserTest@729d991e]" started-at="2025-04-19T18:26:06 IST" name="launchSiteAndClick" finished-at="2025-04-19T18:26:23 IST" duration-ms="16394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchSiteAndClick -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bandwidth.CrossBrowserTest@729d991e]" started-at="2025-04-18T15:23:40 IST" name="tearDown" finished-at="2025-04-18T15:23:40 IST" duration-ms="380" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bandwidth.CrossBrowserTest@729d991e]" started-at="2025-04-19T18:26:23 IST" name="tearDown" finished-at="2025-04-19T18:26:23 IST" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.bandwidth.CrossBrowserTest -->
     </test> <!-- ChromeTest -->
-    <test started-at="2025-04-18T15:23:11 IST" name="FirefoxTest" finished-at="2025-04-18T15:23:41 IST" duration-ms="29883">
+    <test started-at="2025-04-19T18:26:01 IST" name="EdgeTest" finished-at="2025-04-19T18:26:36 IST" duration-ms="34780">
       <class name="com.bandwidth.CrossBrowserTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bandwidth.CrossBrowserTest@1ed4ae0f]" started-at="2025-04-18T15:23:12 IST" name="setup" finished-at="2025-04-18T15:23:24 IST" duration-ms="12139" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="launchSiteAndClick()[pri:0, instance:com.bandwidth.CrossBrowserTest@1ed4ae0f]" started-at="2025-04-18T15:23:24 IST" name="launchSiteAndClick" finished-at="2025-04-18T15:23:40 IST" duration-ms="16670" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchSiteAndClick -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bandwidth.CrossBrowserTest@1ed4ae0f]" started-at="2025-04-18T15:23:40 IST" name="tearDown" finished-at="2025-04-18T15:23:41 IST" duration-ms="940" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.bandwidth.CrossBrowserTest -->
-    </test> <!-- FirefoxTest -->
-    <test started-at="2025-04-18T15:23:11 IST" name="EdgeTest" finished-at="2025-04-18T15:23:49 IST" duration-ms="37351">
-      <class name="com.bandwidth.CrossBrowserTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bandwidth.CrossBrowserTest@6d4d66d2]" started-at="2025-04-18T15:23:12 IST" name="setup" finished-at="2025-04-18T15:23:34 IST" duration-ms="22472" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bandwidth.CrossBrowserTest@6d4d66d2]" started-at="2025-04-19T18:26:01 IST" name="setup" finished-at="2025-04-19T18:26:12 IST" duration-ms="11160" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,11 +231,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="launchSiteAndClick()[pri:0, instance:com.bandwidth.CrossBrowserTest@6d4d66d2]" started-at="2025-04-18T15:23:34 IST" name="launchSiteAndClick" finished-at="2025-04-18T15:23:49 IST" duration-ms="14587" status="PASS">
+        <test-method signature="launchSiteAndClick()[pri:0, instance:com.bandwidth.CrossBrowserTest@6d4d66d2]" started-at="2025-04-19T18:26:12 IST" name="launchSiteAndClick" finished-at="2025-04-19T18:26:34 IST" duration-ms="22017" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchSiteAndClick -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bandwidth.CrossBrowserTest@6d4d66d2]" started-at="2025-04-18T15:23:49 IST" name="tearDown" finished-at="2025-04-18T15:23:49 IST" duration-ms="157" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bandwidth.CrossBrowserTest@6d4d66d2]" started-at="2025-04-19T18:26:34 IST" name="tearDown" finished-at="2025-04-19T18:26:36 IST" duration-ms="1522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

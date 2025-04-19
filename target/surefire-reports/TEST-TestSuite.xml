@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="38.43" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="35.961" tests="8" errors="0" skipped="6" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\282384\AppData\Local\Temp\surefire263546794304191037\surefirebooter-20250418152310765_3.jar C:\Users\282384\AppData\Local\Temp\surefire263546794304191037 2025-04-18T15-23-10_266-jvmRun1 surefire-20250418152310765_1tmp surefire_0-20250418152310765_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\282384\AppData\Local\Temp\surefire1101323175287763921\surefirebooter-20250419182559925_3.jar C:\Users\282384\AppData\Local\Temp\surefire1101323175287763921 2025-04-19T18-25-59_100-jvmRun1 surefire-20250419182559925_1tmp surefire_0-20250419182559925_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\282384\OneDrive - Resideo\Documents\workspace\portal\my-bandwidth-project\target\test-classes;C:\Users\282384\OneDrive - Resideo\Documents\workspace\portal\my-bandwidth-project\target\classes;C:\Users\282384\.m2\repository\org\seleniumhq\selenium\selenium-java\4.30.0\selenium-java-4.30.0.jar;C:\Users\282384\.m2\repository\org\seleniumhq\selenium\selenium-api\4.30.0\selenium-api-4.30.0.jar;C:\Users\282384\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\282384\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.30.0\selenium-chrome-driver-4.30.0.jar;C:\Users\282384\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\282384\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.30.0\selenium-chromium-driver-4.30.0.jar;C:\Users\282384\.m2\repository\org\seleniumhq\selenium\selenium-json\4.30.0\selenium-json-4.30.0.jar;C:\Users\282384\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.30.0\selenium-manager-4.30.0.jar;C:\Users\282384\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.30.0\selenium-devtools-v132-4.30.0.jar;C:\Users\282384\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.30.0\selenium-devtools-v133-4.30.0.jar;C:\Users\282384\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.30.0\selenium-devtools-v134-4.30.0.jar;C:\Users\282384\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.30.0\selenium-edge-driver-4.30.0.jar;C:\Users\282384\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.30.0\selenium-firefox-driver-4.30.0.jar;C:\Users\282384\.m2\repository\org\seleniumhq\selenium\selenium-http\4.30.0\selenium-http-4.30.0.jar;C:\Users\282384\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.30.0\selenium-ie-driver-4.30.0.jar;C:\Users\282384\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.30.0\selenium-remote-driver-4.30.0.jar;C:\Users\282384\.m2\repository\com\google\guava\guava\33.4.5-jre\guava-33.4.5-jre.jar;C:\Users\282384\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\282384\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\282384\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\282384\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\282384\.m2\repository\io\opentelemetry\opentelemetry-api\1.48.0\opentelemetry-api-1.48.0.jar;C:\Users\282384\.m2\repository\io\opentelemetry\opentelemetry-context\1.48.0\opentelemetry-context-1.48.0.jar;C:\Users\282384\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.48.0\opentelemetry-exporter-logging-1.48.0.jar;C:\Users\282384\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.48.0\opentelemetry-sdk-common-1.48.0.jar;C:\Users\282384\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.48.0\opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar;C:\Users\282384\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.48.0\opentelemetry-sdk-extension-autoconfigure-1.48.0.jar;C:\Users\282384\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.48.0\opentelemetry-sdk-trace-1.48.0.jar;C:\Users\282384\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.48.0\opentelemetry-sdk-1.48.0.jar;C:\Users\282384\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.48.0\opentelemetry-sdk-metrics-1.48.0.jar;C:\Users\282384\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.48.0\opentelemetry-sdk-logs-1.48.0.jar;C:\Users\282384\.m2\repository\net\bytebuddy\byte-buddy\1.17.2\byte-buddy-1.17.2.jar;C:\Users\282384\.m2\repository\org\seleniumhq\selenium\selenium-os\4.30.0\selenium-os-4.30.0.jar;C:\Users\282384\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\282384\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.30.0\selenium-safari-driver-4.30.0.jar;C:\Users\282384\.m2\repository\org\seleniumhq\selenium\selenium-support\4.30.0\selenium-support-4.30.0.jar;C:\Users\282384\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\282384\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\282384\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\282384\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\282384\AppData\Local\Temp\surefire263546794304191037\surefirebooter-20250418152310765_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\282384\AppData\Local\Temp\surefire1101323175287763921\surefirebooter-20250419182559925_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.21+9-LTS-193"/>
@@ -55,7 +55,6 @@
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="env" value="lambdatest"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\282384\AppData\Local\Android\Sdk\tools;C:\Users\282384\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\TortoiseSVN\bin;C:\Program Files\PuTTY\;C:\apache-jmeter-5.4.1\bin;C:\Program Files\Git\cmd;C:\Users\282384\AppData\Local\Android\Sdk\tools\bin;C:\Users\282384\flutter\bin;C:\Users\282384\AppData\Local\Pub\Cache\bin;C:\sauce-connect;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools;C:\npm-global\bin;C:\Users\282384\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.42.34433\bin\Hostx64\x64;C:\Python27;C:\Program Files\GTK3-Runtime Win64\bin;C:\Program Files\nodejs\;C:\Python27\Scripts\;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\gradle-8.12\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\282384\AppData\Local\miniconda3;C:\Users\282384\AppData\Local\miniconda3\Library\mingw-w64\bin;C:\Users\282384\AppData\Local\miniconda3\Library\usr\bin;C:\Users\282384\AppData\Local\miniconda3\Library\bin;C:\Users\282384\AppData\Local\miniconda3\Scripts;C:\Users\282384\AppData\Local\Microsoft\WindowsApps;C:\Users\282384\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jdk-11\bin;C:\apache-jmeter-5.5\bin;C:\Users\282384\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\282384\AppData\Local\Microsoft\WinGet\Packages\SauceLabs.SauceConnect_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\282384\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\JetBrains\PyCharm 2024.3.1\bin;;C:\Users\282384\AppData\Roaming\npm;;."/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -65,24 +64,43 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="launchSiteAndClick" classname="com.bandwidth.CrossBrowserTest" time="7.825">
+  <testcase name="setup[firefox](0)" classname="com.bandwidth.CrossBrowserTest" time="0.0">
+    <skipped message="Driver is NULL. Execution skipped"/>
     <system-out><![CDATA[...
 ... TestNG 7.8.0 by Cédric Beust (cedric@beust.com)
 ...
 
-chrome
-firefox
 safari
+firefox
 edge
+chrome
+Firefox is not installed in your system.
+Safari is only supported on macOS.
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Apr 18, 2025 3:23:12 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+]]></system-err>
+  </testcase>
+  <testcase name="setup[safari](0)" classname="com.bandwidth.CrossBrowserTest" time="0.0">
+    <skipped message="Driver is NULL. Execution skipped"/>
+  </testcase>
+  <testcase name="launchSiteAndClick" classname="com.bandwidth.CrossBrowserTest" time="0.0">
+    <skipped message="Driver is NULL. Execution skipped"/>
+  </testcase>
+  <testcase name="launchSiteAndClick" classname="com.bandwidth.CrossBrowserTest" time="0.0">
+    <skipped message="Driver is NULL. Execution skipped"/>
+  </testcase>
+  <testcase name="launchSiteAndClick" classname="com.bandwidth.CrossBrowserTest" time="10.482">
+    <system-err><![CDATA[Apr 19, 2025 6:26:01 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
 INFO: Using OpenTelemetry for tracing
 ]]></system-err>
   </testcase>
-  <testcase name="launchSiteAndClick" classname="com.bandwidth.CrossBrowserTest" time="5.789"/>
-  <testcase name="launchSiteAndClick" classname="com.bandwidth.CrossBrowserTest" time="6.336"/>
-  <testcase name="launchSiteAndClick" classname="com.bandwidth.CrossBrowserTest" time="14.587"/>
+  <testcase name="launchSiteAndClick" classname="com.bandwidth.CrossBrowserTest" time="22.017"/>
+  <testcase name="tearDown" classname="com.bandwidth.CrossBrowserTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.bandwidth.CrossBrowserTest" time="0.0">
+    <skipped/>
+  </testcase>
 </testsuite>
