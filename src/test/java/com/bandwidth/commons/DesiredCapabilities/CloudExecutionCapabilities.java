@@ -25,7 +25,7 @@ public class CloudExecutionCapabilities {
 		ltOptions.put("console", true);
 		ltOptions.put("geoLocation", "IN");
 		ltOptions.put("screenResolution", "2560x1440");
-		ltOptions.put("selenium_version", "4.0.0");
+		ltOptions.put("selenium_version", "4.27.0");
 		cap.setCapability("LT:Options", ltOptions);
 
 		switch (browser.toLowerCase()) {
