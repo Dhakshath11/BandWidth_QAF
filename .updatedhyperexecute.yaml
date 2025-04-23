@@ -1,0 +1,150 @@
+accessibilityJob: false
+alwaysRunPostSteps: false
+appium: null
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+captureScreenRecordingForScenarios: false
+codeDirectory: my-bandwidth-project
+collectLocalGitData: true
+combineTasksInMatrixMode: false
+concurrency: 4
+cypress: false
+differentialUpload:
+    enabled: false
+    forcedDisabled: false
+    ttlHours: null
+dynamicAllocation: false
+errorCategorizedOnFailureOnly: false
+exclusionMatrix:
+    - browser:
+        - safari
+      os:
+        - win
+framework:
+    additional_args: null
+    args:
+        appId: ""
+        appPath: ""
+        artifacts: false
+        avoidAppLaunch: false
+        customData: {}
+        deviceSelectionStrategy: ""
+        devices: []
+        disableReleaseDevice: false
+        filters:
+            attributes: []
+        fixedIP: ""
+        isRealMobile: null
+        isVirtualDevice: false
+        language: ""
+        locale: ""
+        minorOsVersion: false
+        mitmProxy: false
+        mobileDC: null
+        networkHar: false
+        otherApps: []
+        platformName: ""
+        playwrightRD: false
+        preservedDevice: false
+        queueTimeout: 0
+        resignApp: true
+        shards:
+            mappings: []
+        skipInstall: false
+        skipUninstallPreviousBuild: false
+        skipXMLOnRun: false
+        smartUI: null
+        testSuiteAppId: ""
+        testSuitePath: ""
+        uninstallPreviousBuild: false
+        xcTestPlanId: ""
+        xcTestPlanPath: ""
+    baseCommand: ""
+    defaultReports: false
+    discoveryFlags: []
+    discoveryMode: ""
+    discoveryType: ""
+    downloadURL: ""
+    flags: []
+    isTestNGXMLSuite: false
+    licenseKey: ""
+    name: maven/testng
+    runnerFlags: []
+    toscaArgs: null
+    userdefinediscovery: false
+    version: ""
+    workingDirectory: ""
+globalPost:
+    commands: []
+    completed: false
+    mode: ""
+    runson: ""
+    shell: ""
+    workingDirectory: ""
+globalPre:
+    cache: false
+    commands: []
+    completed: false
+    location: ""
+    maxRetries: 0
+    mode: ""
+    runson: ""
+    shell: ""
+    type: ""
+    workingDirectory: ""
+    yamlPath: null
+jobID: c48213fc-6139-4da7-b5a0-e0be959d0eec
+jobLabel:
+    - Testing
+    - CrossBrowserSuite
+key: LT_Pf3gLJhEz0t7X2h7gQca0y2fAzQJVUl6SwRxPNPlsPatcXf
+localHTTPProxy: ""
+matrix:
+    os:
+        - win
+        - mac
+maxRetriesPreSteps: 0
+meta: {}
+platformConfig: null
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+preDirectives:
+    commands: []
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+project:
+    id: ""
+    name: ""
+    type: custom
+projectpath: ""
+regionConfig:
+    storage:
+        enabled: false
+        name: ""
+        platform: azure
+        region: ""
+    vm: []
+runson: ${matrix.os}
+runtime:
+    language: java
+    version: "11"
+    addons: []
+    opts: {}
+slackChannel: ""
+sourcePayload:
+    verifySSL: true
+storageType: ""
+testDiscoveryResultV3: []
+testSuites:
+    - mvn test -Denv="lambdaTest"
+triggerMode: false
+tunnelOpts:
+    testsPerTunnel: 10
+unzipPayload: false
+user: dhakshathamin
+version: "0.1"
+waitForArtefactsUpload: false
+whiteLabelProductTag: ""

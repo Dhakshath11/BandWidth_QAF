@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-CrossBrowserSuite" class="navigator-link">
-              <span class="suite-name border-skipped">CrossBrowserSuite</span>
+              <span class="suite-name border-passed">CrossBrowserSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,26 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,  2 skipped,  2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-CrossBrowserSuite" class="hide-methods skipped suite-CrossBrowserSuite"> (hide)</a> <!-- hide-methods skipped suite-CrossBrowserSuite -->
-                      <a href="#" panel-name="suite-CrossBrowserSuite" class="show-methods skipped suite-CrossBrowserSuite"> (show)</a> <!-- show-methods skipped suite-CrossBrowserSuite -->
-                    </span>
-                    <div class="method-list-content skipped suite-CrossBrowserSuite">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-CrossBrowserSuite" title="com.bandwidth.CrossBrowserTest" class="method navigator-link" hash-for-method="launchSiteAndClick">launchSiteAndClick</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-CrossBrowserSuite" title="com.bandwidth.CrossBrowserTest" class="method navigator-link" hash-for-method="launchSiteAndClick">launchSiteAndClick</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-CrossBrowserSuite -->
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -120,6 +101,16 @@
                       <a href="#" panel-name="suite-CrossBrowserSuite" class="show-methods passed suite-CrossBrowserSuite"> (show)</a> <!-- show-methods passed suite-CrossBrowserSuite -->
                     </span>
                     <div class="method-list-content passed suite-CrossBrowserSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserSuite" title="com.bandwidth.CrossBrowserTest" class="method navigator-link" hash-for-method="launchSiteAndClick">launchSiteAndClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserSuite" title="com.bandwidth.CrossBrowserTest" class="method navigator-link" hash-for-method="launchSiteAndClick">launchSiteAndClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-CrossBrowserSuite" title="com.bandwidth.CrossBrowserTest" class="method navigator-link" hash-for-method="launchSiteAndClick">launchSiteAndClick</a> <!-- method navigator-link -->
@@ -142,52 +133,26 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-CrossBrowserSuite" class="panel CrossBrowserSuite">
-          <div class="suite-CrossBrowserSuite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.bandwidth.CrossBrowserTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="launchSiteAndClick">
-                  </a> <!-- launchSiteAndClick -->
-                  <span class="method-name">launchSiteAndClick</span>
-                  <div class="stack-trace">org.testng.SkipException: Driver is NULL. Execution skipped
-	at com.bandwidth.CrossBrowserTest.setup(CrossBrowserTest.java:26)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 21 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="launchSiteAndClick">
-                  </a> <!-- launchSiteAndClick -->
-                  <span class="method-name">launchSiteAndClick</span>
-                  <div class="stack-trace">org.testng.SkipException: Driver is NULL. Execution skipped
-	at com.bandwidth.CrossBrowserTest.setup(CrossBrowserTest.java:26)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 21 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-CrossBrowserSuite-class-skipped -->
           <div class="suite-CrossBrowserSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.bandwidth.CrossBrowserTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchSiteAndClick">
+                  </a> <!-- launchSiteAndClick -->
+                  <span class="method-name">launchSiteAndClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchSiteAndClick">
+                  </a> <!-- launchSiteAndClick -->
+                  <span class="method-name">launchSiteAndClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="launchSiteAndClick">
@@ -288,24 +253,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'launchSiteAndClick')
 data.setCell(0, 2, 'com.bandwidth.CrossBrowserTest')
-data.setCell(0, 3, 22017);
+data.setCell(0, 3, 17700);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'launchSiteAndClick')
 data.setCell(1, 2, 'com.bandwidth.CrossBrowserTest')
-data.setCell(1, 3, 16394);
+data.setCell(1, 3, 16760);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'launchSiteAndClick')
 data.setCell(2, 2, 'com.bandwidth.CrossBrowserTest')
-data.setCell(2, 3, 1);
+data.setCell(2, 3, 14982);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'launchSiteAndClick')
 data.setCell(3, 2, 'com.bandwidth.CrossBrowserTest')
-data.setCell(3, 3, 1);
+data.setCell(3, 3, 10317);
 window.suiteTableData['CrossBrowserSuite']= { tableData: data, tableDiv: 'times-div-CrossBrowserSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
               <div id="times-div-CrossBrowserSuite">
               </div> <!-- times-div-CrossBrowserSuite -->
             </div> <!-- times-div -->
@@ -350,19 +315,35 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">launchSiteAndClick</span>
-                <span class="method-start">5243 ms</span>
+                <span class="method-start">12510 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">launchSiteAndClick</span>
-                <span class="method-start">11160 ms</span>
+                <span class="method-start">15054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchSiteAndClick</span>
+                <span class="method-start">19128 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchSiteAndClick</span>
+                <span class="method-start">22810 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">21641 ms</span>
+                <span class="method-start">22829 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">33178 ms</span>
+                <span class="method-start">32754 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35889 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37792 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
