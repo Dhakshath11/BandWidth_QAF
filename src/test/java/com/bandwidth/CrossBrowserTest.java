@@ -2,42 +2,19 @@ package com.bandwidth;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.SkipException;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.bandwidth.commons.TestCaseInputs;
-import com.bandwidth.commons.Driver.WebDriverFactory;
+public class CrossBrowserTest extends BaseSetup{
 
-public class CrossBrowserTest {
-
-	WebDriver driver;
-
-	@Parameters("browser")
-	@BeforeMethod
-	public void setup(String browser) throws Exception {
-		TestCaseInputs.setBrowser(browser);
-		TestCaseInputs.setEnv(System.getProperty("env", "LOCAL"));
-		driver = WebDriverFactory.createInstance();
-
-		if (driver == null)
-			throw new SkipException("Driver is NULL. Execution skipped");
-	}
+	private WebDriver driver;
 
 	@Test
 	public void launchSiteAndClick() throws InterruptedException {
+		driver = getDriver();
 		driver.get("https://example.com");
 		Thread.sleep(3000);
 		driver.findElement(By.tagName("a")).click(); // Update selector as needed
 		Thread.sleep(5000);
 	}
 
-	@AfterMethod
-	public void tearDown() {
-		if (driver != null)
-			driver.quit();
-		TestCaseInputs.clear();
-	}
 }

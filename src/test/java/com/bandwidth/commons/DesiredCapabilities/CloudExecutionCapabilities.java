@@ -7,6 +7,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.safari.SafariOptions;
+import org.testng.SkipException;
 
 import com.bandwidth.commons.TestCaseInputs;
 
@@ -50,11 +51,16 @@ public class CloudExecutionCapabilities {
 			break;
 
 		case "safari":
-			SafariOptions safariOptions = new SafariOptions();
-			safariOptions.setPlatformName("MacOS Sequoia");
-			cap.setBrowserName("safari");
-			cap.merge(safariOptions);
-			break;
+			// If Execution is selected to Remote-LambdaTest Execution or If Platform is MAC
+			if (TestCaseInputs.getRemoteExecution() || System.getProperty("os.name").toLowerCase().contains("mac")) {
+				SafariOptions safariOptions = new SafariOptions();
+				safariOptions.setPlatformName("MacOS Sequoia");
+				cap.setBrowserName("safari");
+				cap.merge(safariOptions);
+				break;
+			} else {
+				throw new SkipException("--- Safari is only supported on macOS ---");
+			}
 
 		case "firefox":
 			FirefoxOptions firefoxOptions = new FirefoxOptions();
