@@ -51,8 +51,8 @@ public class CloudExecutionCapabilities {
 			break;
 
 		case "safari":
-			// If Execution is selected to Remote-LambdaTest Execution or If Platform is MAC
-			if (TestCaseInputs.getRemoteExecution() || System.getProperty("os.name").toLowerCase().contains("mac")) {
+			// If Execution is selected to Hyper-LambdaTest Execution or If Platform is MAC
+			if (TestCaseInputs.getExecution() || System.getProperty("os.name").toLowerCase().contains("mac")) {
 				SafariOptions safariOptions = new SafariOptions();
 				safariOptions.setPlatformName("MacOS Sequoia");
 				cap.setBrowserName("safari");

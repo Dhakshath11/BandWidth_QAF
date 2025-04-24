@@ -4,7 +4,7 @@ public class TestCaseInputs {
 
 	private static ThreadLocal<String> browser = new ThreadLocal<>();
 	private static ThreadLocal<String> env = new ThreadLocal<>();
-	private static ThreadLocal<Boolean> remoteExecution = new ThreadLocal<>();
+	private static ThreadLocal<Boolean> execution = new ThreadLocal<>();
 
 	public static void setBrowser(String value) {
 		browser.set(value);
@@ -22,12 +22,12 @@ public class TestCaseInputs {
 		return env.get();
 	}
 
-	public static void setRemoteExecution(boolean value) {
-		remoteExecution.set(value);
+	public static void setExecution(boolean value) {
+		execution.set(value);
 	}
 
-	public static boolean getRemoteExecution() {
-		return remoteExecution.get();
+	public static boolean getExecution() {
+		return execution.get();
 	}
 
 	public static void clear() {

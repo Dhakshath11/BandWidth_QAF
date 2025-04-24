@@ -3,6 +3,7 @@ package com.bandwidth;
 import org.openqa.selenium.WebDriver;
 import org.testng.SkipException;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
@@ -20,16 +21,19 @@ public class BaseSetup {
 	public void setup(String browser) throws Exception {
 		try {
 			String env = System.getProperty("env", "LAMBDATEST");
-			String remoteExecution = System.getProperty("RemoteExecution", "true");
+			String execution = System.getProperty("RemoteExecution", "false");
 			TestListener.startTest(browser.toUpperCase() + " Test");
+
+			if (env.equalsIgnoreCase("LOCAL") && execution.equalsIgnoreCase("True"))
+				throw new SkipException("Local-Remote Execution is not recommended.");
 
 			TestListener.getTest().log(Status.INFO,
 					"Starting Test for " + browser.toUpperCase() + " browser in " + env + " environment");
-			TestListener.getTest().log(Status.INFO, "Remote Execution : " + remoteExecution);
+			TestListener.getTest().log(Status.INFO, "Hyper Execution : " + execution);
 
 			TestCaseInputs.setBrowser(browser);
 			TestCaseInputs.setEnv(env);
-			TestCaseInputs.setRemoteExecution((Boolean.parseBoolean(remoteExecution)));
+			TestCaseInputs.setExecution((Boolean.parseBoolean(execution)));
 
 			driver.set(WebDriverFactory.createInstance());
 			if (driver.get() == null)
@@ -38,7 +42,7 @@ public class BaseSetup {
 		} catch (Exception e) {
 			System.out.println("Unable to create Driver: " + e.getLocalizedMessage());
 			TestListener.getTest().log(Status.SKIP, "Unable to create Driver: " + e.getMessage());
-			throw new SkipException("Unable to create Driver.\n" + e.getLocalizedMessage());
+			throw new SkipException("Test Start Failure ==> " + e.getLocalizedMessage());
 		}
 	}
 
@@ -52,5 +56,10 @@ public class BaseSetup {
 			driver.get().quit();
 		TestCaseInputs.clear();
 		TestListener.getTest().log(Status.INFO, "Ending Test");
+	}
+
+	@AfterSuite
+	public void suiteTearDown() {
+		System.out.println("Report : " + System.getProperty("user.dir") + "/test-output/ExtentReport.html");
 	}
 }

@@ -9,6 +9,7 @@
     <classes>
       <class name="com.bandwidth.CrossBrowserTest">
         <methods>
+          <include name="suiteTearDown"/>
           <include name="launchSiteAndClick"/>
           <include name="setup"/>
           <include name="tearDown"/>

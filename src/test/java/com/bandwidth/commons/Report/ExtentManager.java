@@ -8,7 +8,7 @@ public class ExtentManager {
 
 	public static ExtentReports getInstance() {
 		if (extent == null) {
-			String reportPath = System.getProperty("user.dir") + "/test-output/ExtentReport.html";
+			String reportPath = System.getProperty("user.dir") + "/ExecutionReport/ExtentReport.html";
 			ExtentSparkReporter sparkReporter = new ExtentSparkReporter(reportPath);
 			sparkReporter.config().setReportName("BandWidth Automation Execution");
 			sparkReporter.config().setDocumentTitle("Test Results");

@@ -1,17 +1,17 @@
 {
-    "id": "c48213fc-6139-4da7-b5a0-e0be959d0eec",
-    "created_at": "2025-04-20T12:18:37Z",
-    "update_at": "2025-04-20T12:21:59Z",
+    "id": "c1d48b50-52a4-4cbe-a37f-d990faa4b044",
+    "created_at": "2025-04-24T20:56:24Z",
+    "update_at": "2025-04-24T21:00:06Z",
     "global_timeout": 90,
     "tunnel_name": "",
-    "start_time": "2025-04-20T12:19:32Z",
-    "end_time": "2025-04-20T12:21:59Z",
+    "start_time": "2025-04-24T20:57:26Z",
+    "end_time": "2025-04-24T21:00:06Z",
     "summary": {
-        "total_time": 147000000000,
-        "execution_time": 147000000000,
+        "total_time": 160000000000,
+        "execution_time": 160000000000,
         "total_tasks": 2,
-        "build_time_consumed": 262000000000,
-        "jobTestExecutionTime": "1m54s",
+        "build_time_consumed": 282000000000,
+        "jobTestExecutionTime": "1m59s",
         "failed_tasks": 0,
         "total_stage_info": {
             "scenario": {
@@ -21,58 +21,58 @@
             }
         },
         "status": "completed",
-        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=c48213fc-6139-4da7-b5a0-e0be959d0eec"
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=c1d48b50-52a4-4cbe-a37f-d990faa4b044"
     },
     "tasks": [
         {
-            "id": "259772c0-2452-4cab-b95c-d0f3d9a17bd9",
+            "id": "a789b6ec-bd6c-41b9-b549-7518f1516365",
             "os": "win",
             "status": "completed",
             "remark": "completed",
             "debug": false,
-            "created_at": "2025-04-20T12:19:31Z",
-            "update_at": "2025-04-20T12:21:27Z",
-            "start_time": "2025-04-20T12:19:32Z",
-            "end_time": "2025-04-20T12:21:27Z",
+            "created_at": "2025-04-24T20:57:25Z",
+            "update_at": "2025-04-24T20:59:29Z",
+            "start_time": "2025-04-24T20:57:26Z",
+            "end_time": "2025-04-24T20:59:29Z",
             "group_number": 1,
             "stages": [
                 {
-                    "id": "cd3a8296-e677-4046-b495-6ad68615106a",
+                    "id": "8b3320e8-048a-43a9-8e57-d071ac6d2f04",
                     "type": "scenario",
                     "status": "completed",
                     "name": "mvn test -Denv=\"lambdaTest\"",
                     "iteration": 0,
                     "link": "command.1.0.log",
-                    "created_at": "2025-04-20T12:19:42Z",
-                    "started_at": "2025-04-20T12:19:43Z",
-                    "updated_at": "2025-04-20T12:21:26Z",
+                    "created_at": "2025-04-24T20:57:37Z",
+                    "started_at": "2025-04-24T20:57:38Z",
+                    "updated_at": "2025-04-24T20:59:28Z",
                     "order": 2,
                     "task_number": 1
                 }
             ]
         },
         {
-            "id": "7dc11c7e-3299-4662-80ac-75ce83482baa",
+            "id": "5bca7d88-162e-486a-b16b-02a3e22506a7",
             "os": "mac",
             "status": "completed",
             "remark": "completed",
             "debug": false,
-            "created_at": "2025-04-20T12:19:31Z",
-            "update_at": "2025-04-20T12:21:59Z",
-            "start_time": "2025-04-20T12:19:32Z",
-            "end_time": "2025-04-20T12:21:59Z",
+            "created_at": "2025-04-24T20:57:25Z",
+            "update_at": "2025-04-24T21:00:06Z",
+            "start_time": "2025-04-24T20:57:27Z",
+            "end_time": "2025-04-24T21:00:06Z",
             "group_number": 2,
             "stages": [
                 {
-                    "id": "3261bbb9-9490-42ef-a2dc-26b10516f12f",
+                    "id": "ca00f428-e5b0-4139-9391-4752fda7a67d",
                     "type": "scenario",
                     "status": "completed",
                     "name": "mvn test -Denv=\"lambdaTest\"",
                     "iteration": 0,
                     "link": "command.1.0.log",
-                    "created_at": "2025-04-20T12:19:41Z",
-                    "started_at": "2025-04-20T12:19:44Z",
-                    "updated_at": "2025-04-20T12:21:59Z",
+                    "created_at": "2025-04-24T20:57:36Z",
+                    "started_at": "2025-04-24T20:57:40Z",
+                    "updated_at": "2025-04-24T21:00:05Z",
                     "order": 2,
                     "task_number": 2
                 }
