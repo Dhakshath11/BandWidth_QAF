@@ -60,6 +60,6 @@ public class BaseSetup {
 
 	@AfterSuite
 	public void suiteTearDown() {
-		System.out.println("Report : " + System.getProperty("user.dir") + "/test-output/ExtentReport.html");
+		System.out.println("Report : " + System.getProperty("user.dir") + "/ExecutionReport/ExtentReport.html");
 	}
 }
