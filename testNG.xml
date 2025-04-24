@@ -26,4 +26,9 @@
 			<class name="com.bandwidth.CrossBrowserTest" />
 		</classes>
 	</test>
+
+	<listeners>
+		<listener class-name="com.bandwidth.commons.Report.TestListener" />
+	</listeners>
+
 </suite>

@@ -4,7 +4,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-public class CrossBrowserTest extends BaseSetup{
+import com.aventstack.extentreports.Status;
+import com.bandwidth.commons.Report.TestListener;
+
+public class CrossBrowserTest extends BaseSetup {
 
 	private WebDriver driver;
 
@@ -12,8 +15,10 @@ public class CrossBrowserTest extends BaseSetup{
 	public void launchSiteAndClick() throws InterruptedException {
 		driver = getDriver();
 		driver.get("https://example.com");
+		TestListener.getTest().log(Status.PASS, "Navigated to Website");
 		Thread.sleep(3000);
 		driver.findElement(By.tagName("a")).click(); // Update selector as needed
+		TestListener.getTest().log(Status.PASS, "Clicked on Element");
 		Thread.sleep(5000);
 	}
 
