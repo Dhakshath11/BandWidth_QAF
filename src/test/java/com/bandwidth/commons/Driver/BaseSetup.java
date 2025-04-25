@@ -1,4 +1,4 @@
-package com.bandwidth;
+package com.bandwidth.commons.Driver;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.SkipException;
@@ -8,8 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.Status;
-import com.bandwidth.commons.TestCaseInputs;
-import com.bandwidth.commons.Driver.WebDriverFactory;
+import com.bandwidth.commons.Inputs.TestCaseInputs;
 import com.bandwidth.commons.Report.TestListener;
 
 public class BaseSetup {

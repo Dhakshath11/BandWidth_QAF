@@ -6,10 +6,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.aventstack.extentreports.Status;
-import com.bandwidth.commons.FrameworkGlobalVariables;
-import com.bandwidth.commons.TestCaseInputs;
 import com.bandwidth.commons.DesiredCapabilities.CloudExecutionCapabilities;
 import com.bandwidth.commons.DesiredCapabilities.LocalExecutionCapabilities;
+import com.bandwidth.commons.Inputs.FrameworkGlobalVariables;
+import com.bandwidth.commons.Inputs.TestCaseInputs;
 import com.bandwidth.commons.Report.TestListener;
 
 public class WebDriverFactory {

@@ -9,7 +9,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.safari.SafariOptions;
 import org.testng.SkipException;
 
-import com.bandwidth.commons.TestCaseInputs;
+import com.bandwidth.commons.Inputs.TestCaseInputs;
 
 public class CloudExecutionCapabilities {
 	public DesiredCapabilities getDesiredCapabilities() {

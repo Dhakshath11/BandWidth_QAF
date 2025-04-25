@@ -5,7 +5,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.SkipException;
 
-import com.bandwidth.commons.TestCaseInputs;
+import com.bandwidth.commons.Inputs.TestCaseInputs;
 
 public class LocalExecutionCapabilities {
 

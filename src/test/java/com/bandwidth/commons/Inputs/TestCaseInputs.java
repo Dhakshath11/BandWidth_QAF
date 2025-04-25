@@ -1,4 +1,4 @@
-package com.bandwidth.commons;
+package com.bandwidth.commons.Inputs;
 
 public class TestCaseInputs {
 

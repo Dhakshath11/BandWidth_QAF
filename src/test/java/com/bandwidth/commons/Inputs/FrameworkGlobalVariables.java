@@ -1,4 +1,4 @@
-package com.bandwidth.commons;
+package com.bandwidth.commons.Inputs;
 
 public class FrameworkGlobalVariables {
 	public static String LT_USERNAME = "dhakshathamin";
