@@ -1,0 +1,41 @@
+version: 0.1
+runson: mac
+
+autosplit: true
+concurrency : 2
+
+framework:
+  name: maven/testng
+  
+runtime:
+  language: java
+  version: 11
+
+testDiscovery:
+  type: raw
+  mode: remote
+  command: grep "test name" testng_Auto.xml | awk '{print$2}' | sed 's/name=//g' | sed 's/\x3e//g'
+
+testRunnerCommand: |
+  mvn test -Denv="lambdaTest"
+
+jobLabel: ['Testing', 'CrossBrowserSuite', 'AutoSplit']
+
+#Difference between testSuite & testSuites
+#Concurrency is mandate for autosplit and Not usefull for single test suite command in matrix mode
+
+
+#What should I do? First try to run in AutoSplit mode and then start integrating with Matrix mode for different OS
+# then go for parallel run
+
+#without type & command : Test will run but discovery wont happen
+
+#-DselectedTests=$test to pass test name discovered from xml. In our case 4 test has name which needs to be passed
+
+#running mode can be three, Autosplit, matrix and hybrid (comb on both)
+
+# Post steps cancelled if scnarios fails
+
+#How will retry happen? Is it only scneario or task; If one scenario is cancelled then task is re runned with all sceanrios; if One scenario is failed then it is re runned again : This was our observation #4139
+
+# 4142 for Artifacts

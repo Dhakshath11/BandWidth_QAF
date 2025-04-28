@@ -1,0 +1,53 @@
+version: 0.1
+
+runson: ${matrix.os}
+matrix:
+  os: [win, mac]
+
+parallelism: 2
+autosplit: true
+
+framework:
+  name: maven/testng
+  
+runtime:
+  language: java
+  version: 11
+
+pre:
+  - echo "Starting Hybrid Test..."
+
+testDiscovery:
+  type: raw
+  mode: remote
+  command: |
+      grep "test name" testng.xml | awk '{print$2}' | sed 's/name=//g' | sed 's/\x3e//g'
+
+testRunnerCommand: |
+  mvn test -Denv="lambdaTest"
+
+post:
+  - echo "Ending Hybrid Test & Zipping Report..."
+
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - .m2
+  - target
+
+retryOnFailure: true
+maxRetries: 2
+
+report: true
+partialReport:
+  location: target/surefire-reports
+  type: testng
+  email:
+        to:
+          - dhakshath.amin@gmail.com
+
+uploadArtefacts:
+  - name: ExecutionReport
+    path:
+      - ExecutionReport/
+
+jobLabel: ['Testing', 'CrossBrowserSuite', 'Hybrid', 'Email To']

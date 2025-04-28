@@ -3,11 +3,14 @@ alwaysRunPostSteps: false
 appium: null
 betaFeature:
     setPartiallyCompletedAsCompleted: false
+cacheDirectories:
+    - .m2
+    - target
+cacheKey: '{{ checksum "pom.xml" }}'
 captureScreenRecordingForScenarios: false
 codeDirectory: my-bandwidth-project
 collectLocalGitData: true
 combineTasksInMatrixMode: false
-concurrency: 4
 cypress: false
 differentialUpload:
     enabled: false
@@ -15,11 +18,6 @@ differentialUpload:
     ttlHours: null
 dynamicAllocation: false
 errorCategorizedOnFailureOnly: false
-exclusionMatrix:
-    - browser:
-        - safari
-      os:
-        - win
 framework:
     additional_args: null
     args:
@@ -93,16 +91,20 @@ globalPre:
     type: ""
     workingDirectory: ""
     yamlPath: null
-jobID: c1d48b50-52a4-4cbe-a37f-d990faa4b044
+jobID: d8f86a32-65c4-4766-b2bb-406157c22ee7
 jobLabel:
     - Testing
     - CrossBrowserSuite
+    - Cache
+    - Report
+    - Artifacts-Zipped-mac
 key: LT_Pf3gLJhEz0t7X2h7gQca0y2fAzQJVUl6SwRxPNPlsPatcXf
 localHTTPProxy: ""
 matrix:
     os:
         - win
         - mac
+maxRetries: 2
 maxRetriesPreSteps: 0
 meta: {}
 platformConfig: null
@@ -110,8 +112,11 @@ postDirectives:
     commands: []
     shell: ""
     workingDirectory: ""
+pre:
+    - echo Starting Test...
 preDirectives:
-    commands: []
+    commands:
+        - echo Starting Test...
     maxRetries: 0
     shell: ""
     workingDirectory: ""
@@ -127,6 +132,8 @@ regionConfig:
         platform: azure
         region: ""
     vm: []
+report: true
+retryOnFailure: true
 runson: ${matrix.os}
 runtime:
     language: java
@@ -144,6 +151,14 @@ triggerMode: false
 tunnelOpts:
     testsPerTunnel: 10
 unzipPayload: false
+uploadArtefacts:
+    - email:
+        linkValidity: 0
+        metaInfo: []
+        to: []
+      name: ExecutionReport
+      path:
+        - ExecutionReport/
 user: dhakshathamin
 version: "0.1"
 waitForArtefactsUpload: false

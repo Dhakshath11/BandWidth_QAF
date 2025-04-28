@@ -1,0 +1,55 @@
+version: 0.1
+runson: ${matrix.os}
+matrix:
+  os: [win, mac]
+  
+#exclusionMatrix: 
+#  - os: [win]
+
+#concurrency: 4
+#combineTasksInMatrixMode: true Suitable only when Different combo in matrix is present and we want to group it into single task
+
+framework:
+  name: maven/testng
+  
+runtime:
+  language: java
+  version: 11
+
+testSuites:
+  - mvn test -Denv="lambdaTest"
+
+jobLabel: ['Testing', 'CrossBrowserSuite', 'Cache', 'Report', 'Artifacts-Zipped-mac']
+
+pre:
+  - echo Starting Test...
+  
+#post:
+#    - echo Ending Test & Zipping Report...
+#    - zip -r ExecutionReport.zip ExecutionReport
+
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - .m2
+  - target
+  
+retryOnFailure: true
+maxRetries: 2
+
+report: true
+partialReport:
+  location: target/surefire-reports
+  type: testng
+
+uploadArtefacts:
+  - name: ExecutionReport
+    path: 
+      - ExecutionReport/
+
+#uploadArtefacts:
+#  - name: ExecutionReport
+#    path:
+#      - ExecutionReport.zip
+
+
+
