@@ -1,0 +1,38 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "name": "runBDDScenarios",
+        "resultFileName": "RunBDDScenarios"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1746177320706,
+      "duration": 142,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "name": "runBDDScenarios",
+        "resultFileName": "RunBDDScenarios1"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1746177320738,
+      "duration": 119,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

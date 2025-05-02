@@ -1,0 +1,21 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "name": "sampleTest",
+        "resultFileName": "SampleTest"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1746116830741,
+      "duration": 3593,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

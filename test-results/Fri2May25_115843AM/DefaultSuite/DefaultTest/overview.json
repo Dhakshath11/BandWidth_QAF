@@ -1,0 +1,33 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.bandwidth_QAF.SampleQAFTest"
+  ],
+  "envInfo": {
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0-RC3",
+      "qaf-Build-Time": "04-Feb-2024 19:07:15",
+      "qaf-Version": "4.0"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "baseurl": "http://www.google.com/"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "11.0.21",
+      "os.arch": "amd64",
+      "host": "IE6CLT5T2RTN3",
+      "os.name": "Windows 11",
+      "user.name": "282384",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1746167323883,
+  "endTime": 1746167323928
+}

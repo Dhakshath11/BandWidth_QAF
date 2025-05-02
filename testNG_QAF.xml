@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QAFSuite">
+    <test name="QAFTest">
+        <classes>
+            <class name="com.bandwidth_QAF.SampleQAFTest"/>
+        </classes>
+    </test>
+</suite>

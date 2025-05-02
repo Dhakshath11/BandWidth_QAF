@@ -1,0 +1,24 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://example.com}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 716
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "Example Domain",
+      "subLogs": [],
+      "duration": 37
+    }
+  ],
+  "checkPoints": [],
+  "errorTrace": null
+}

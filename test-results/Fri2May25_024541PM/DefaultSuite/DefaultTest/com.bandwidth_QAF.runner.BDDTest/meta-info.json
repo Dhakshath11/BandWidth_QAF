@@ -1,0 +1,21 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "name": "runBDDScenarios",
+        "resultFileName": "RunBDDScenarios"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1746177341201,
+      "duration": 69,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}
