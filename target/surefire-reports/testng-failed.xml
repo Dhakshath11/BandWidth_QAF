@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="4" parallel="tests" name="Failed suite [CrossBrowserSuite]" guice-stage="DEVELOPMENT" verbose="0">
-  <listeners>
-    <listener class-name="com.bandwidth.commons.Report.TestListener"/>
-  </listeners>
-  <test thread-count="4" parallel="tests" name="SafariTest(failed)" verbose="0">
-    <parameter name="browser" value="safari"/>
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
       <class name="com.bandwidth.CrossBrowserTest">
         <methods>
-          <include name="suiteTearDown"/>
           <include name="launchSiteAndClick"/>
           <include name="setup"/>
+          <include name="suiteTearDown"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.bandwidth.CrossBrowserTest -->
     </classes>
-  </test> <!-- SafariTest(failed) -->
-</suite> <!-- Failed suite [CrossBrowserSuite] -->
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

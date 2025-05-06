@@ -2,11 +2,11 @@ version: 0.1
 runson: mac
 
 autosplit: true
-concurrency : 2
+concurrency : 4
 
 framework:
   name: maven/testng
-  
+
 runtime:
   language: java
   version: 11
@@ -17,25 +17,34 @@ testDiscovery:
   command: grep "test name" testng_Auto.xml | awk '{print$2}' | sed 's/name=//g' | sed 's/\x3e//g'
 
 testRunnerCommand: |
-  mvn test -Denv="lambdaTest"
+  echo "Generating selected_testng.xml for test: $test"
+  mvn test -Denv="lambdaTest" -Dmaven.repo.local=.m2 -DselectedTests=$test -Dsurefire.suiteXmlFiles=testNG_Auto.xml
+
+#testRunnerCommand: |
+#  echo "Generating selected_testng.xml for test: $test"
+#  echo '<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >' > selected_testng.xml
+#  echo '<suite name="SplitSuite" verbose="3">' >> selected_testng.xml
+#  awk "/<test name=\\\"$test\\\"/,/<\\/test>/" testng_Auto.xml >> selected_testng.xml
+#  echo '</suite>' >> selected_testng.xml
+#  mvn test -Denv="lambdaTest" -Dmaven.repo.local=.m2 -Dsurefire.suiteXmlFiles=selected_testng.xml
+
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - .m2
+
+pre:
+  - echo Starting Test...
+  - mvn dependency:resolve -Dmaven.repo.local=.m2
 
 jobLabel: ['Testing', 'CrossBrowserSuite', 'AutoSplit']
 
-#Difference between testSuite & testSuites
-#Concurrency is mandate for autosplit and Not usefull for single test suite command in matrix mode
+report: true
+partialReport:
+  location: target/surefire-reports
+  type: testng
 
-
-#What should I do? First try to run in AutoSplit mode and then start integrating with Matrix mode for different OS
-# then go for parallel run
-
-#without type & command : Test will run but discovery wont happen
-
-#-DselectedTests=$test to pass test name discovered from xml. In our case 4 test has name which needs to be passed
-
-#running mode can be three, Autosplit, matrix and hybrid (comb on both)
-
-# Post steps cancelled if scnarios fails
-
-#How will retry happen? Is it only scneario or task; If one scenario is cancelled then task is re runned with all sceanrios; if One scenario is failed then it is re runned again : This was our observation #4139
-
-# 4142 for Artifacts
+project:
+  name: Test Project Auto
+differentialUpload:
+  enabled: true
+  ttlHours: 24

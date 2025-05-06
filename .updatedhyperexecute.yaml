@@ -1,21 +1,22 @@
 accessibilityJob: false
 alwaysRunPostSteps: false
 appium: null
+autosplit: true
 betaFeature:
     setPartiallyCompletedAsCompleted: false
 cacheDirectories:
     - .m2
-    - target
 cacheKey: '{{ checksum "pom.xml" }}'
 captureScreenRecordingForScenarios: false
-codeDirectory: my-bandwidth-project
+codeDirectory: BandWidth
 collectLocalGitData: true
 combineTasksInMatrixMode: false
+concurrency: 4
 cypress: false
 differentialUpload:
-    enabled: false
+    enabled: true
     forcedDisabled: false
-    ttlHours: null
+    ttlHours: 24
 dynamicAllocation: false
 errorCategorizedOnFailureOnly: false
 framework:
@@ -91,20 +92,13 @@ globalPre:
     type: ""
     workingDirectory: ""
     yamlPath: null
-jobID: d8f86a32-65c4-4766-b2bb-406157c22ee7
+jobID: 8ea7d4d1-d8d9-4c1a-86bb-8dc63f1f1284
 jobLabel:
     - Testing
     - CrossBrowserSuite
-    - Cache
-    - Report
-    - Artifacts-Zipped-mac
+    - AutoSplit
 key: LT_Pf3gLJhEz0t7X2h7gQca0y2fAzQJVUl6SwRxPNPlsPatcXf
 localHTTPProxy: ""
-matrix:
-    os:
-        - win
-        - mac
-maxRetries: 2
 maxRetriesPreSteps: 0
 meta: {}
 platformConfig: null
@@ -114,15 +108,17 @@ postDirectives:
     workingDirectory: ""
 pre:
     - echo Starting Test...
+    - mvn dependency:resolve -Dmaven.repo.local=.m2
 preDirectives:
     commands:
         - echo Starting Test...
+        - mvn dependency:resolve -Dmaven.repo.local=.m2
     maxRetries: 0
     shell: ""
     workingDirectory: ""
 project:
-    id: ""
-    name: ""
+    id: 01JTJ6ZDY0X89X19CZVS30ZS4F
+    name: Test Project Auto
     type: custom
 projectpath: ""
 regionConfig:
@@ -133,8 +129,7 @@ regionConfig:
         region: ""
     vm: []
 report: true
-retryOnFailure: true
-runson: ${matrix.os}
+runson: mac
 runtime:
     language: java
     version: "11"
@@ -143,22 +138,21 @@ runtime:
 slackChannel: ""
 sourcePayload:
     verifySSL: true
+sprofilePath: ""
 storageType: ""
+testDiscovery:
+    command: grep "test name" testng_Auto.xml | awk '{print$2}' | sed 's/name=//g' | sed 's/\x3e//g'
+    mode: remote
+    type: raw
 testDiscoveryResultV3: []
-testSuites:
-    - mvn test -Denv="lambdaTest"
+testRunnerCommand: |
+    echo "Generating selected_testng.xml for test: $test"
+    mvn test -Denv="lambdaTest" -Dmaven.repo.local=.m2 -DselectedTests=$test -Dsurefire.suiteXmlFiles=testNG_Auto.xml
+testSuites: []
 triggerMode: false
 tunnelOpts:
     testsPerTunnel: 10
 unzipPayload: false
-uploadArtefacts:
-    - email:
-        linkValidity: 0
-        metaInfo: []
-        to: []
-      name: ExecutionReport
-      path:
-        - ExecutionReport/
 user: dhakshathamin
 version: "0.1"
 waitForArtefactsUpload: false

@@ -3,18 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bandwidth_QAF.SampleQAFTest">
+      <class name="com.bandwidth.CrossBrowserTest">
         <methods>
-          <include name="afterTest"/>
-          <include name="sampleTest"/>
-          <include name="afterMethod"/>
-          <include name="setupTest"/>
-          <include name="setupMethod"/>
-          <include name="setupSuit"/>
-          <include name="afterClass"/>
+          <include name="launchSiteAndClick"/>
           <include name="setup"/>
+          <include name="suiteTearDown"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.bandwidth_QAF.SampleQAFTest -->
+      </class> <!-- com.bandwidth.CrossBrowserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

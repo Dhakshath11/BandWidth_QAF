@@ -1,0 +1,57 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "config",
+      "args": [
+        "safari"
+      ],
+      "metaData": {
+        "description": "",
+        "name": "setup",
+        "resultFileName": "Setup"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1746447977599,
+      "duration": 11236,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "name": "tearDown",
+        "resultFileName": "TearDown"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1746447999886,
+      "duration": 537,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "name": "suiteTearDown",
+        "resultFileName": "SuiteTearDown"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1746448014959,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

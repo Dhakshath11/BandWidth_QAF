@@ -1,6 +1,21 @@
 {
   "reports": [
     {
+      "name": "CrossBrowserSuite",
+      "dir": "test-results/Mon5May25_060203PM",
+      "startTime": 1746448304772
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Mon5May25_060124PM",
+      "startTime": 1746448284844
+    },
+    {
+      "name": "CrossBrowserSuite",
+      "dir": "test-results/Mon5May25_055626PM",
+      "startTime": 1746447977525
+    },
+    {
       "name": "Default suite",
       "dir": "test-results/Fri2May25_024541PM",
       "startTime": 1746177341021

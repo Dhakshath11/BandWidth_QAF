@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SplitSuite" verbose="3">
+	<test name="ChromeTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.bandwidth.CrossBrowserTest" />
+		</classes>
+	</test>
+</suite>

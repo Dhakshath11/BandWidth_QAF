@@ -1,124 +1,236 @@
 {
-    "id": "d8f86a32-65c4-4766-b2bb-406157c22ee7",
-    "created_at": "2025-04-28T19:00:16Z",
-    "update_at": "2025-04-28T19:06:36Z",
+    "id": "8ea7d4d1-d8d9-4c1a-86bb-8dc63f1f1284",
+    "created_at": "2025-05-06T11:41:16Z",
+    "update_at": "2025-05-06T11:43:45Z",
     "global_timeout": 90,
     "tunnel_name": "",
-    "start_time": "2025-04-28T19:01:37Z",
-    "end_time": "2025-04-28T19:06:36Z",
+    "start_time": "2025-05-06T11:42:05Z",
+    "end_time": "2025-05-06T11:43:45Z",
     "summary": {
-        "total_time": 299000000000,
-        "execution_time": 299000000000,
-        "total_tasks": 2,
-        "build_time_consumed": 421000000000,
-        "jobTestExecutionTime": "3m49s",
+        "total_time": 100000000000,
+        "execution_time": 100000000000,
+        "total_tasks": 5,
+        "build_time_consumed": 269000000000,
+        "jobTestExecutionTime": "47s",
         "failed_tasks": 0,
         "total_stage_info": {
             "prerun": {
                 "StageFailedPercent": 0,
                 "StagePassPercent": 100,
-                "TotalStage": 2
+                "TotalStage": 5
             },
             "scenario": {
                 "StageFailedPercent": 0,
                 "StagePassPercent": 100,
-                "TotalStage": 2
+                "TotalStage": 4
+            },
+            "test_discovery": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 1
             }
         },
         "status": "completed",
-        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=d8f86a32-65c4-4766-b2bb-406157c22ee7"
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=8ea7d4d1-d8d9-4c1a-86bb-8dc63f1f1284"
     },
     "tasks": [
         {
-            "id": "1f1babea-7681-4a01-a654-c66b91dcbbfc",
-            "os": "win",
+            "id": "e08b761e-cc0b-4699-94bb-e1dc5bf40233",
+            "os": "mac",
             "status": "completed",
             "remark": "completed",
             "debug": false,
-            "created_at": "2025-04-28T19:01:36Z",
-            "update_at": "2025-04-28T19:03:41Z",
-            "start_time": "2025-04-28T19:01:37Z",
-            "end_time": "2025-04-28T19:03:41Z",
+            "created_at": "2025-05-06T11:41:56Z",
+            "update_at": "2025-05-06T11:42:23Z",
+            "start_time": "2025-05-06T11:42:05Z",
+            "end_time": "2025-05-06T11:42:23Z",
             "group_number": 1,
             "stages": [
                 {
-                    "id": "d3de5839-693f-4536-8c13-8ca39de8d975",
+                    "id": "e1d23869-540d-478c-b6f1-482c5999a69c",
                     "type": "prerun",
                     "status": "completed",
                     "name": "pre",
                     "iteration": 0,
                     "link": "pre.log",
-                    "created_at": "2025-04-28T19:01:45Z",
-                    "started_at": "2025-04-28T19:01:45Z",
-                    "updated_at": "2025-04-28T19:01:45Z",
+                    "created_at": "2025-05-06T11:42:21Z",
+                    "started_at": "2025-05-06T11:42:21Z",
+                    "updated_at": "2025-05-06T11:42:23Z",
                     "order": 3,
                     "task_number": 1
                 },
                 {
-                    "id": "b90dd112-3e67-4cb1-9170-955955558a7c",
-                    "type": "scenario",
+                    "id": "45367e47-5cf1-45a2-9190-a537247ec6e3",
+                    "type": "test_discovery",
                     "status": "completed",
-                    "name": "mvn test -Denv=\"lambdaTest\"",
+                    "name": "discovery",
                     "iteration": 0,
-                    "link": "command.1.0.log",
-                    "created_at": "2025-04-28T19:01:45Z",
-                    "started_at": "2025-04-28T19:01:46Z",
-                    "updated_at": "2025-04-28T19:03:38Z",
+                    "link": "discovery.log",
+                    "created_at": "2025-05-06T11:42:23Z",
+                    "started_at": "2025-05-06T11:42:23Z",
+                    "updated_at": "2025-05-06T11:42:23Z",
                     "order": 4,
                     "task_number": 1
                 }
             ]
         },
         {
-            "id": "e18d6798-0f34-49f3-affc-6a35abb361f4",
+            "id": "da4528fb-872a-4842-a260-e00231a24fb6",
             "os": "mac",
             "status": "completed",
             "remark": "completed",
             "debug": false,
-            "created_at": "2025-04-28T19:01:36Z",
-            "update_at": "2025-04-28T19:06:36Z",
-            "start_time": "2025-04-28T19:01:39Z",
-            "end_time": "2025-04-28T19:06:36Z",
+            "created_at": "2025-05-06T11:42:23Z",
+            "update_at": "2025-05-06T11:43:45Z",
+            "start_time": "2025-05-06T11:42:27Z",
+            "end_time": "2025-05-06T11:43:45Z",
             "group_number": 2,
             "stages": [
                 {
-                    "id": "acfd189c-9da0-4e81-a47b-25f6f50aeac3",
+                    "id": "d83aafc9-8789-4111-836c-bb4f915cfa5a",
                     "type": "prerun",
                     "status": "completed",
                     "name": "pre",
                     "iteration": 0,
                     "link": "pre.log",
-                    "created_at": "2025-04-28T19:01:54Z",
-                    "started_at": "2025-04-28T19:01:55Z",
-                    "updated_at": "2025-04-28T19:01:55Z",
+                    "created_at": "2025-05-06T11:42:43Z",
+                    "started_at": "2025-05-06T11:42:43Z",
+                    "updated_at": "2025-05-06T11:42:44Z",
                     "order": 3,
                     "task_number": 2
                 },
                 {
-                    "id": "913f29e4-aa12-41df-95e4-66a6ac14e762",
-                    "type": "scenario",
-                    "status": "failed",
-                    "name": "mvn test -Denv=\"lambdaTest\"",
-                    "iteration": 0,
-                    "link": "command.1.0.log",
-                    "created_at": "2025-04-28T19:01:55Z",
-                    "started_at": "2025-04-28T19:02:00Z",
-                    "updated_at": "2025-04-28T19:04:28Z",
-                    "order": 4,
-                    "task_number": 2
-                },
-                {
-                    "id": "fdff3483-82f8-4a45-8e21-73a50302d3d3",
+                    "id": "3b9e9435-9077-4d99-abdd-a9c820ed9ba5",
                     "type": "scenario",
                     "status": "completed",
-                    "name": "mvn test -Denv=\"lambdaTest\"",
-                    "iteration": 1,
-                    "link": "command.1.1.log",
-                    "created_at": "2025-04-28T19:04:29Z",
-                    "started_at": "2025-04-28T19:04:29Z",
-                    "updated_at": "2025-04-28T19:06:31Z",
-                    "order": 4,
+                    "name": "\"EdgeTest\"",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-05-06T11:42:44Z",
+                    "started_at": "2025-05-06T11:42:47Z",
+                    "updated_at": "2025-05-06T11:43:44Z",
+                    "order": 5,
                     "task_number": 2
+                }
+            ]
+        },
+        {
+            "id": "e5b3176c-9047-4988-a20c-15e64a8d3b9b",
+            "os": "mac",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-05-06T11:42:23Z",
+            "update_at": "2025-05-06T11:43:30Z",
+            "start_time": "2025-05-06T11:42:26Z",
+            "end_time": "2025-05-06T11:43:30Z",
+            "group_number": 3,
+            "stages": [
+                {
+                    "id": "0d7fd04a-21f4-47b0-aadd-13a096e48945",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-05-06T11:42:44Z",
+                    "started_at": "2025-05-06T11:42:44Z",
+                    "updated_at": "2025-05-06T11:42:45Z",
+                    "order": 3,
+                    "task_number": 3
+                },
+                {
+                    "id": "7c916563-7d07-4cbd-a23a-2fe5598bc3c2",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "\"FirefoxTest\"",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-05-06T11:42:46Z",
+                    "started_at": "2025-05-06T11:42:50Z",
+                    "updated_at": "2025-05-06T11:43:29Z",
+                    "order": 5,
+                    "task_number": 3
+                }
+            ]
+        },
+        {
+            "id": "b6e32f58-8ee6-4fd1-9d11-82e36fea994b",
+            "os": "mac",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-05-06T11:42:23Z",
+            "update_at": "2025-05-06T11:43:25Z",
+            "start_time": "2025-05-06T11:42:25Z",
+            "end_time": "2025-05-06T11:43:25Z",
+            "group_number": 4,
+            "stages": [
+                {
+                    "id": "363bc9f5-810b-4ed5-bd09-a1e8cd031d95",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-05-06T11:42:38Z",
+                    "started_at": "2025-05-06T11:42:38Z",
+                    "updated_at": "2025-05-06T11:42:39Z",
+                    "order": 3,
+                    "task_number": 4
+                },
+                {
+                    "id": "9edd4ca2-20e4-4a92-9b54-b930cb6f1d58",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "\"ChromeTest\"",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-05-06T11:42:39Z",
+                    "started_at": "2025-05-06T11:42:42Z",
+                    "updated_at": "2025-05-06T11:43:25Z",
+                    "order": 5,
+                    "task_number": 4
+                }
+            ]
+        },
+        {
+            "id": "8993ccb7-6fdb-4df3-b324-449a4064967d",
+            "os": "mac",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-05-06T11:42:23Z",
+            "update_at": "2025-05-06T11:43:14Z",
+            "start_time": "2025-05-06T11:42:25Z",
+            "end_time": "2025-05-06T11:43:14Z",
+            "group_number": 5,
+            "stages": [
+                {
+                    "id": "4540e7de-ea5b-4b37-9e67-8914e6b338c5",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-05-06T11:42:37Z",
+                    "started_at": "2025-05-06T11:42:37Z",
+                    "updated_at": "2025-05-06T11:42:38Z",
+                    "order": 3,
+                    "task_number": 5
+                },
+                {
+                    "id": "7a9ab80a-8912-443a-a972-6364e8621af8",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "\"SafariTest\"",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-05-06T11:42:38Z",
+                    "started_at": "2025-05-06T11:42:42Z",
+                    "updated_at": "2025-05-06T11:43:14Z",
+                    "order": 5,
+                    "task_number": 5
                 }
             ]
         }

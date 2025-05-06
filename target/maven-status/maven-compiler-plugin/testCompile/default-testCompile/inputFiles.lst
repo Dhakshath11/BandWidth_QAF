@@ -1,9 +1,9 @@
-C:\Users\282384\OneDrive - Resideo\Documents\workspace\portal\my-bandwidth-project\src\test\java\com\bandwidth\BaseSetup.java
-C:\Users\282384\OneDrive - Resideo\Documents\workspace\portal\my-bandwidth-project\src\test\java\com\bandwidth\commons\DesiredCapabilities\CloudExecutionCapabilities.java
-C:\Users\282384\OneDrive - Resideo\Documents\workspace\portal\my-bandwidth-project\src\test\java\com\bandwidth\commons\DesiredCapabilities\LocalExecutionCapabilities.java
-C:\Users\282384\OneDrive - Resideo\Documents\workspace\portal\my-bandwidth-project\src\test\java\com\bandwidth\commons\Driver\WebDriverFactory.java
-C:\Users\282384\OneDrive - Resideo\Documents\workspace\portal\my-bandwidth-project\src\test\java\com\bandwidth\commons\FrameworkGlobalVariables.java
-C:\Users\282384\OneDrive - Resideo\Documents\workspace\portal\my-bandwidth-project\src\test\java\com\bandwidth\commons\Report\ExtentManager.java
-C:\Users\282384\OneDrive - Resideo\Documents\workspace\portal\my-bandwidth-project\src\test\java\com\bandwidth\commons\Report\TestListener.java
-C:\Users\282384\OneDrive - Resideo\Documents\workspace\portal\my-bandwidth-project\src\test\java\com\bandwidth\commons\TestCaseInputs.java
-C:\Users\282384\OneDrive - Resideo\Documents\workspace\portal\my-bandwidth-project\src\test\java\com\bandwidth\CrossBrowserTest.java
+/Users/dhakshath/Documents/BandWidth/src/test/java/com/bandwidth/CrossBrowserTest.java
+/Users/dhakshath/Documents/BandWidth/src/test/java/com/bandwidth/commons/DesiredCapabilities/CloudExecutionCapabilities.java
+/Users/dhakshath/Documents/BandWidth/src/test/java/com/bandwidth/commons/DesiredCapabilities/LocalExecutionCapabilities.java
+/Users/dhakshath/Documents/BandWidth/src/test/java/com/bandwidth/commons/Driver/BaseSetup.java
+/Users/dhakshath/Documents/BandWidth/src/test/java/com/bandwidth/commons/Driver/WebDriverFactory.java
+/Users/dhakshath/Documents/BandWidth/src/test/java/com/bandwidth/commons/Inputs/FrameworkGlobalVariables.java
+/Users/dhakshath/Documents/BandWidth/src/test/java/com/bandwidth/commons/Inputs/TestCaseInputs.java
+/Users/dhakshath/Documents/BandWidth/src/test/java/com/bandwidth/commons/Report/ExtentManager.java
+/Users/dhakshath/Documents/BandWidth/src/test/java/com/bandwidth/commons/Report/TestListener.java

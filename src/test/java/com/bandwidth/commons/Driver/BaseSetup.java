@@ -1,5 +1,6 @@
 package com.bandwidth.commons.Driver;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.SkipException;
 import org.testng.annotations.AfterMethod;
@@ -13,52 +14,69 @@ import com.bandwidth.commons.Report.TestListener;
 
 public class BaseSetup {
 
-	protected ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+    protected ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
-	@Parameters("browser")
-	@BeforeMethod
-	public void setup(String browser) throws Exception {
-		try {
-			String env = System.getProperty("env", "LAMBDATEST");
-			String execution = System.getProperty("RemoteExecution", "false");
-			TestListener.startTest(browser.toUpperCase() + " Test");
+    @Parameters("browser")
+    @BeforeMethod
+    public void setup(String browser) throws Exception {
+        try {
+            String env = System.getProperty("env", "LAMBDATEST");
+            String execution = System.getProperty("RemoteExecution", "false");
+            TestListener.startTest(browser.toUpperCase() + " Test");
 
-			if (env.equalsIgnoreCase("LOCAL") && execution.equalsIgnoreCase("True"))
-				throw new SkipException("Local-Remote Execution is not recommended.");
+            if (env.equalsIgnoreCase("LOCAL") && execution.equalsIgnoreCase("True"))
+                throw new SkipException("Local-Remote Execution is not recommended.");
 
-			TestListener.getTest().log(Status.INFO,
-					"Starting Test for " + browser.toUpperCase() + " browser in " + env + " environment");
-			TestListener.getTest().log(Status.INFO, "Hyper Execution : " + execution);
+            TestListener.getTest().log(Status.INFO,
+                    "Starting Test for " + browser.toUpperCase() + " browser in " + env + " environment");
+            TestListener.getTest().log(Status.INFO, "Hyper Execution : " + execution);
 
-			TestCaseInputs.setBrowser(browser);
-			TestCaseInputs.setEnv(env);
-			TestCaseInputs.setExecution((Boolean.parseBoolean(execution)));
+            TestCaseInputs.setBrowser(browser);
+            TestCaseInputs.setEnv(env);
+            TestCaseInputs.setExecution((Boolean.parseBoolean(execution)));
 
-			driver.set(WebDriverFactory.createInstance());
-			if (driver.get() == null)
-				throw new SkipException("Driver is NULL. Execution skipped");
-			TestListener.getTest().log(Status.PASS, "Driver has been Created");
-		} catch (Exception e) {
-			System.out.println("Unable to create Driver: " + e.getLocalizedMessage());
-			TestListener.getTest().log(Status.SKIP, "Unable to create Driver: " + e.getMessage());
-			throw new SkipException("Test Start Failure ==> " + e.getLocalizedMessage());
-		}
-	}
+            driver.set(WebDriverFactory.createInstance());
+            if (driver.get() == null)
+                throw new SkipException("Driver is NULL. Execution skipped");
+            TestListener.getTest().log(Status.PASS, "Driver has been Created");
+            lambdaHook_SetTestName(browser.toUpperCase() + "_TEST");
+        } catch (Exception e) {
+            System.out.println("Unable to create Driver: " + e.getLocalizedMessage());
+            TestListener.getTest().log(Status.SKIP, "Unable to create Driver: " + e.getMessage());
+            throw new SkipException("Test Start Failure ==> " + e.getLocalizedMessage());
+        }
+    }
 
-	protected WebDriver getDriver() {
-		return driver.get();
-	}
+    protected WebDriver getDriver() {
+        return driver.get();
+    }
 
-	@AfterMethod
-	public void tearDown() {
-		if (driver.get() != null)
-			driver.get().quit();
-		TestCaseInputs.clear();
-		TestListener.getTest().log(Status.INFO, "Ending Test");
-	}
+    @AfterMethod
+    public void tearDown() {
+        if (driver.get() != null)
+            driver.get().quit();
+        TestCaseInputs.clear();
+        TestListener.getTest().log(Status.INFO, "Ending Test");
+    }
 
-	@AfterSuite
-	public void suiteTearDown() {
-		System.out.println("Report : " + System.getProperty("user.dir") + "/ExecutionReport/ExtentReport.html");
-	}
+    @AfterSuite
+    public void suiteTearDown() {
+        System.out.println("Report : " + System.getProperty("user.dir") + "/ExecutionReport/ExtentReport.html");
+    }
+
+    public void lambdaHook_TestStatus(String status) {
+        try {
+            ((JavascriptExecutor) driver.get()).executeScript("lambda-status=" + status);
+        } catch (Exception e) {
+            System.out.println("Lambda Hook Error for Test Status: " + e.getLocalizedMessage());
+        }
+    }
+
+    public void lambdaHook_SetTestName(String name) {
+        try {
+            ((JavascriptExecutor) driver.get()).executeScript("lambda-name=" + name + "");
+        } catch (Exception e) {
+            System.out.println("Lambda Hook Error for Test Name: " + e.getLocalizedMessage());
+        }
+    }
 }

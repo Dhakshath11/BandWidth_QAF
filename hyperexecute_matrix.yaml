@@ -3,8 +3,8 @@ runson: ${matrix.os}
 matrix:
   os: [win, mac]
   
-#exclusionMatrix: 
-#  - os: [win]
+exclusionMatrix:
+  - os: [win]
 
 #concurrency: 4
 #combineTasksInMatrixMode: true Suitable only when Different combo in matrix is present and we want to group it into single task
@@ -17,12 +17,13 @@ runtime:
   version: 11
 
 testSuites:
-  - mvn test -Denv="lambdaTest"
+  - mvn test -Denv="lambdaTest" -Dmaven.repo.local=.m2 -Dsurefire.suiteXmlFiles=testNG.xml
 
 jobLabel: ['Testing', 'CrossBrowserSuite', 'Cache', 'Report', 'Artifacts-Zipped-mac']
 
 pre:
   - echo Starting Test...
+  - mvn dependency:resolve -Dmaven.repo.local=.m2
   
 #post:
 #    - echo Ending Test & Zipping Report...
@@ -31,7 +32,6 @@ pre:
 cacheKey: '{{ checksum "pom.xml" }}'
 cacheDirectories:
   - .m2
-  - target
   
 retryOnFailure: true
 maxRetries: 2

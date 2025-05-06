@@ -37,14 +37,6 @@ cacheDirectories:
 retryOnFailure: true
 maxRetries: 2
 
-report: true
-partialReport:
-  location: target/surefire-reports
-  type: testng
-  email:
-        to:
-          - dhakshath.amin@gmail.com
-
 uploadArtefacts:
   - name: ExecutionReport
     path:
