@@ -67,7 +67,7 @@ framework:
     flags: []
     isTestNGXMLSuite: false
     licenseKey: ""
-    name: maven/testng
+    name: ""
     runnerFlags: []
     toscaArgs: null
     userdefinediscovery: false
@@ -92,11 +92,12 @@ globalPre:
     type: ""
     workingDirectory: ""
     yamlPath: null
-jobID: 8ea7d4d1-d8d9-4c1a-86bb-8dc63f1f1284
+jobID: 33d9e3cf-ddab-45d0-afd2-c32b19fe3de5
 jobLabel:
-    - Testing
-    - CrossBrowserSuite
+    - QAF
+    - ChromeSuite
     - AutoSplit
+    - 'Features: All'
 key: LT_Pf3gLJhEz0t7X2h7gQca0y2fAzQJVUl6SwRxPNPlsPatcXf
 localHTTPProxy: ""
 maxRetriesPreSteps: 0
@@ -107,11 +108,11 @@ postDirectives:
     shell: ""
     workingDirectory: ""
 pre:
-    - echo Starting Test...
+    - echo "Starting Test..."
     - mvn dependency:resolve -Dmaven.repo.local=.m2
 preDirectives:
     commands:
-        - echo Starting Test...
+        - echo "Starting Test..."
         - mvn dependency:resolve -Dmaven.repo.local=.m2
     maxRetries: 0
     shell: ""
@@ -128,7 +129,6 @@ regionConfig:
         platform: azure
         region: ""
     vm: []
-report: true
 runson: mac
 runtime:
     language: java
@@ -141,13 +141,17 @@ sourcePayload:
 sprofilePath: ""
 storageType: ""
 testDiscovery:
-    command: grep "test name" testng_Auto.xml | awk '{print$2}' | sed 's/name=//g' | sed 's/\x3e//g'
+    args:
+        featureFilePaths: resources/features/
+        frameWork: java
+        query: ((@Headers) and not @Contents)
+    command: snooper --featureFilePaths=resources/features/ --frameWork=java --query="((@Headers) and not @Contents)"
     mode: remote
-    type: raw
+    type: automatic
 testDiscoveryResultV3: []
 testRunnerCommand: |
-    echo "Generating selected_testng.xml for test: $test"
-    mvn test -Denv="lambdaTest" -Dmaven.repo.local=.m2 -DselectedTests=$test -Dsurefire.suiteXmlFiles=testNG_Auto.xml
+    echo "Running test: $test"
+    mvn test -Dmaven.repo.local=.m2 -Dsurefire.suiteXmlFiles=testNG_BDD.xml -Dscenario.file.loc="$test"
 testSuites: []
 triggerMode: false
 tunnelOpts:

@@ -1,0 +1,50 @@
+version: 0.1
+runson: mac
+
+autosplit: true
+concurrency: 4
+
+runtime:
+  language: java
+  version: 11
+
+testDiscovery:
+  type: automatic
+  mode: remote
+  args:
+    featureFilePaths: resources/features/
+    frameWork: java
+    #specificTags: ["@Headers","@Contents]
+    #ignoredTags : ["@Headers"]
+    query: "((@Headers) and not @Contents)"
+
+testRunnerCommand: |
+  echo "Running test: $test"
+  mvn test -Dmaven.repo.local=.m2 -Dsurefire.suiteXmlFiles=testNG_BDD.xml -Dscenario.file.loc="$test"
+
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - .m2
+
+pre:
+  - echo "Starting Test..."
+  - mvn dependency:resolve -Dmaven.repo.local=.m2
+
+jobLabel: ['QAF', 'ChromeSuite', 'AutoSplit', 'Query']
+
+project:
+  name: Test Project Auto
+differentialUpload:
+  enabled: true
+  ttlHours: 24
+
+# To be executed
+# Automatic discovery will give as line numbers
+
+#  resources/features/headers.feature:24
+#  resources/features/headers.feature:31
+#  resources/features/headers.feature:38
+#  resources/features/headers.feature:45
+
+# Hence cannot execute
+#       DON'T RUN

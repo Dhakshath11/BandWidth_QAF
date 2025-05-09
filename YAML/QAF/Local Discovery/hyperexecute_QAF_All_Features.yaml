@@ -1,0 +1,36 @@
+version: 0.1
+runson: mac
+
+autosplit: true
+concurrency: 4
+
+runtime:
+  language: java
+  version: 11
+
+testDiscovery:
+  type: raw
+  mode: remote
+  command: snooper --targetOs=mac --featureFilePaths=resources/features/ --frameWork=java | sed 's/:.*//' | uniq
+
+#raw command means actuall cli commands with discovery to happen in remote machine and fetch all scenarios and filter out till features and give on unquie ones.
+
+testRunnerCommand: |
+  echo "Running test: $test"
+  mvn test -Dmaven.repo.local=.m2 -Dsurefire.suiteXmlFiles=testNG_BDD.xml -Dscenario.file.loc="$test"
+
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - .m2
+
+pre:
+  - echo "Starting Test..."
+  - mvn dependency:resolve -Dmaven.repo.local=.m2
+
+jobLabel: ['QAF', 'ChromeSuite', 'AutoSplit', 'Features: All']
+
+project:
+  name: Test Project Auto
+differentialUpload:
+  enabled: true
+  ttlHours: 24

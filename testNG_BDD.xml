@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="QAF Demo" parallel="methods" verbose="0">
+    <test name="QAF-BDD-Test">
+        <!--<parameter name="step.provider.pkg" value="com.bandwidth_QAF.stepdefs" />
+        <parameter name="scenario.file.loc" value="resources/features" />-->
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory2"/>
+        </classes>
+    </test>
+</suite>
+
+
+        <!--
+        Observed,
+        1. step.provider.pkg=com.bandwidth_QAF.stepdefs
+        2. scenario.file.loc=resources/features
+        are essential to execute run BDD scenarios; Over here we can see it, Parameters can be passed
+        in application.properties file or testND_BDD.xml file;
+
+        Make sure your resources folder is correctly marked as a Resources Root in IntelliJ or Eclipse.
+
+        For remote Driver, specify chromeDriverRemote & chrome.additional.capabilities for extra capabilties.
+
+        For Hooks, QAF won't support BDD Hooks, we need to go with TestNG hooks which are customized in framework. Use the Interface QAFTestStepListener, QAFWebDriverCommandListener etc
+        and define qaf.listeners properties.
+        -->

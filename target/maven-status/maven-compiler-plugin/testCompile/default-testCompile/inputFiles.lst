@@ -7,3 +7,6 @@
 /Users/dhakshath/Documents/BandWidth/src/test/java/com/bandwidth/commons/Inputs/TestCaseInputs.java
 /Users/dhakshath/Documents/BandWidth/src/test/java/com/bandwidth/commons/Report/ExtentManager.java
 /Users/dhakshath/Documents/BandWidth/src/test/java/com/bandwidth/commons/Report/TestListener.java
+/Users/dhakshath/Documents/BandWidth/src/test/java/com/bandwidth_QAF/SampleQAFTest.java
+/Users/dhakshath/Documents/BandWidth/src/test/java/com/bandwidth_QAF/stepdefs/Hooks.java
+/Users/dhakshath/Documents/BandWidth/src/test/java/com/bandwidth_QAF/stepdefs/StepDefinitions.java

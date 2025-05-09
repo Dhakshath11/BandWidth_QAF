@@ -30,7 +30,7 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.8.0</version>
+            <version>7.1.0</version>
             <scope>test</scope>
         </dependency>
 
@@ -41,12 +41,13 @@
             <version>5.0.9</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.qmetry/qaf
+        <!-- https://mvnrepository.com/artifact/com.qmetry/qaf -->
         <dependency>
             <groupId>com.qmetry</groupId>
             <artifactId>qaf</artifactId>
             <version>4.0.0-RC3</version>
-        </dependency> -->
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -73,15 +74,17 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.3.0</version>
                 <configuration>
-                    <!--<suiteXmlFiles>
+                    <!-- Only we want to dont want to specify xml from mvn run command
+                    <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>-->
+                    <!-- This is need to execute one test at one task
                     <properties>
                         <property>
                             <name>testnames</name>
                             <value>${selectedTests}</value>
                         </property>
-                    </properties>
+                    </properties> -->
                 </configuration>
             </plugin>
             <plugin>

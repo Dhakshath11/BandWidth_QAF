@@ -1,36 +1,296 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-06T14:02:09 IST" name="SplitSuite" finished-at="2025-05-06T14:02:32 IST" duration-ms="23343">
+  <suite started-at="2025-05-09T18:34:26 IST" name="QAF Demo" finished-at="2025-05-09T18:35:03 IST" duration-ms="37277">
     <groups>
+      <group name="Domains">
+        <method signature="resources.features.headers.feature.Navigate and Click on Header Domain()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="Navigate and Click on Header Domain" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- Domains -->
+      <group name="Numbers">
+        <method signature="resources.features.headers.feature.Navigate and Click on Header Numbers()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" name="Navigate and Click on Header Numbers" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- Numbers -->
+      <group name="Protocols">
+        <method signature="resources.features.headers.feature.Navigate and Click on Header Protocols()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" name="Navigate and Click on Header Protocols" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- Protocols -->
+      <group name="Headers">
+        <method signature="resources.features.headers.feature.Navigate and Click on Header Domain()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="Navigate and Click on Header Domain" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+        <method signature="resources.features.headers.feature.Navigate and Click on Header Protocols()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" name="Navigate and Click on Header Protocols" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+        <method signature="resources.features.headers.feature.Navigate and Click on Header Numbers()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" name="Navigate and Click on Header Numbers" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+        <method signature="resources.features.headers.feature.Navigate and Click on Header About()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" name="Navigate and Click on Header About" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- Headers -->
+      <group name="About">
+        <method signature="resources.features.headers.feature.Navigate and Click on Header About()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" name="Navigate and Click on Header About" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- About -->
     </groups>
-    <test started-at="2025-05-06T14:02:09 IST" name="ChromeTest" finished-at="2025-05-06T14:02:32 IST" duration-ms="23343">
-      <class name="com.bandwidth.CrossBrowserTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bandwidth.CrossBrowserTest@27f981c6]" started-at="2025-05-06T14:02:09 IST" name="setup" finished-at="2025-05-06T14:02:17 IST" duration-ms="7566" status="PASS">
+    <test started-at="2025-05-09T18:34:26 IST" name="QAF-BDD-Test" finished-at="2025-05-09T18:35:03 IST" duration-ms="37277">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method is-config="true" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:34:26 IST" name="setupSuit" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:34:26 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[org.testng.TestRunner@6aa61224]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method is-config="true" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:34:26 IST" name="setupTest" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:34:26 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aa61224]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:34:26 IST" name="setup" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:34:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aa61224]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="launchSiteAndClick()[pri:0, instance:com.bandwidth.CrossBrowserTest@27f981c6]" started-at="2025-05-06T14:02:17 IST" name="launchSiteAndClick" finished-at="2025-05-06T14:02:32 IST" duration-ms="15148" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:34:26 IST" name="setup" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:34:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aa61224]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchSiteAndClick -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bandwidth.CrossBrowserTest@27f981c6]" started-at="2025-05-06T14:02:32 IST" name="tearDown" finished-at="2025-05-06T14:02:32 IST" duration-ms="612" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:34:26 IST" name="setup" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:34:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aa61224]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:com.bandwidth.CrossBrowserTest@27f981c6]" started-at="2025-05-06T14:02:32 IST" name="suiteTearDown" finished-at="2025-05-06T14:02:32 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:34:26 IST" name="setup" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:34:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aa61224]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- suiteTearDown -->
-      </class> <!-- com.bandwidth.CrossBrowserTest -->
-    </test> <!-- ChromeTest -->
-  </suite> <!-- SplitSuite -->
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:34:26 IST" name="setupMethod" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:34:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aa61224]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:34:26 IST" name="setupMethod" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:34:26 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aa61224]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:34:26 IST" name="setupMethod" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:34:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aa61224]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:34:26 IST" name="setupMethod" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:34:26 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aa61224]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="Navigate and Click on Header About()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:34:26 IST" name="Navigate and Click on Header About" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:34:47 IST" duration-ms="20718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigate and Click on Header About -->
+        <test-method signature="Navigate and Click on Header Numbers()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" started-at="2025-05-09T18:34:26 IST" name="Navigate and Click on Header Numbers" test-instance-name="Navigate and Click on Header Numbers" finished-at="2025-05-09T18:34:47 IST" duration-ms="20718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigate and Click on Header Numbers -->
+        <test-method signature="Navigate and Click on Header Domain()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" started-at="2025-05-09T18:34:26 IST" name="Navigate and Click on Header Domain" test-instance-name="Navigate and Click on Header Domain" finished-at="2025-05-09T18:34:47 IST" duration-ms="20800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigate and Click on Header Domain -->
+        <test-method signature="Navigate and Click on Header Protocols()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" started-at="2025-05-09T18:34:26 IST" name="Navigate and Click on Header Protocols" test-instance-name="Navigate and Click on Header Protocols" finished-at="2025-05-09T18:35:03 IST" duration-ms="37262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigate and Click on Header Protocols -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:34:47 IST" name="afterMethod" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:34:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aa61224]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Navigate and Click on Header About status=SUCCESS method=resources.features.headers.feature.Navigate and Click on Header About()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:34:47 IST" name="afterMethod" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:34:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aa61224]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Navigate and Click on Header Numbers status=SUCCESS method=resources.features.headers.feature.Navigate and Click on Header Numbers()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:34:47 IST" name="afterClass" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:34:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aa61224]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:34:47 IST" name="afterClass" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:34:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aa61224]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:34:47 IST" name="afterMethod" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:34:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aa61224]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Navigate and Click on Header Domain status=SUCCESS method=resources.features.headers.feature.Navigate and Click on Header Domain()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:34:47 IST" name="afterClass" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:34:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aa61224]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:35:03 IST" name="afterMethod" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:35:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aa61224]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Navigate and Click on Header Protocols status=SUCCESS method=resources.features.headers.feature.Navigate and Click on Header Protocols()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:35:03 IST" name="afterClass" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:35:03 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aa61224]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]" started-at="2025-05-09T18:35:03 IST" name="afterTest" test-instance-name="Navigate and Click on Header About" finished-at="2025-05-09T18:35:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aa61224]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- QAF-BDD-Test -->
+  </suite> <!-- QAF Demo -->
 </testng-results>

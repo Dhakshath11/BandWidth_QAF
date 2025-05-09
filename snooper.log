@@ -1,0 +1,229 @@
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 08:13:11 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 08:13:11 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 08:13:11 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 08:13:11 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/sample.feature","service":"snooper","timestamp":"Fri, 09 May 2025 08:13:11 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 08:13:11 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 08:25:28 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 08:25:28 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 08:25:28 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 08:25:28 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/sample.feature","service":"snooper","timestamp":"Fri, 09 May 2025 08:25:28 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 08:25:28 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 08:27:24 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 08:27:24 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 08:27:24 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 08:27:24 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/sample.feature","service":"snooper","timestamp":"Fri, 09 May 2025 08:27:24 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 08:27:24 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 08:27:48 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 08:27:48 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 08:27:48 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 08:27:48 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/sample.feature","service":"snooper","timestamp":"Fri, 09 May 2025 08:27:48 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 08:27:48 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 08:39:18 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 08:39:18 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 08:39:18 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 08:39:18 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 08:39:18 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 08:39:18 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 08:39:18 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:06 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:06 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:06 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:06 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:06 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:06 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:06 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:17 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:17 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:17 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:17 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:17 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:17 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:17 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:23 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:23 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:23 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:23 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:23 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:23 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:32:23 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:33:38 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:33:38 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:33:38 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:33:38 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:33:38 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:33:38 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:33:38 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:40:00 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:40:00 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:40:00 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:40:00 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:40:00 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:40:00 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:40:00 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:40:00 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:40:00 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:51:50 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:51:50 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:51:50 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:51:50 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:51:50 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:51:50 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:51:50 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:52:09 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:52:09 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:52:09 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:52:09 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:52:09 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:52:09 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:52:09 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:52:25 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:52:25 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:52:25 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:52:25 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:52:25 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:52:25 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:52:25 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:54:59 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:54:59 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:54:59 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:54:59 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:54:59 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:54:59 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:54:59 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:20 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:20 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:20 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:20 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:20 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:20 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:20 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:29 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:29 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:29 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:29 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:29 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:29 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:29 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:46 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:46 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:46 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:46 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:46 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:46 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:55:46 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:03 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:03 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:03 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:03 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:03 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:03 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:03 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:16 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:16 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:16 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:16 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:16 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:16 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:16 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:44 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:44 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:44 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:44 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:44 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:44 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:56:44 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:57:34 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:57:34 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:57:34 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:57:34 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:57:34 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:57:34 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:57:34 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:57:38 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:57:38 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:57:38 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:57:38 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:57:38 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:57:38 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:57:38 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:18 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:18 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:18 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:18 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:18 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:18 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:18 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:51 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:51 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:51 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:51 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:51 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:51 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:51 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:58 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:58 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:58 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:58 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:58 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:58 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 09:58:58 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 11:01:59 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 11:01:59 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 11:01:59 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 11:01:59 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 11:01:59 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 11:01:59 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 11:01:59 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 11:02:59 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 11:02:59 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 11:02:59 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 11:02:59 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 11:02:59 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 11:02:59 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 11:02:59 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 11:05:56 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 11:05:56 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 11:05:56 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 11:05:56 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 11:05:56 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 11:05:56 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 11:05:56 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 11:06:29 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 11:06:29 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 11:06:29 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 11:06:29 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 11:06:29 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 11:06:29 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 11:06:29 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 11:08:40 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 11:08:40 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 11:08:40 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 11:08:40 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 11:08:40 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 11:08:40 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 11:08:40 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 11:09:29 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 11:09:29 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 11:09:29 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 11:09:29 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 11:09:29 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 11:09:29 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 11:09:29 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 12:47:42 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 12:47:42 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 12:47:42 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 12:47:42 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 12:47:42 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 12:47:42 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 12:47:42 GMT"}
+{"level":"info","message":"Snooper version 1.37.0","service":"snooper","timestamp":"Fri, 09 May 2025 12:49:25 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 09 May 2025 12:49:25 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 09 May 2025 12:49:25 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 09 May 2025 12:49:25 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/content.feature","service":"snooper","timestamp":"Fri, 09 May 2025 12:49:25 GMT"}
+{"level":"info","message":"Extracting features from file resources/features/headers.feature","service":"snooper","timestamp":"Fri, 09 May 2025 12:49:25 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 09 May 2025 12:49:25 GMT"}

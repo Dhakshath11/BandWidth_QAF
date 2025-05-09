@@ -1,0 +1,71 @@
+{
+  "total": 4,
+  "pass": 4,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "resources/features/headers.feature"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "LT:Options": {
+        "build": "QAF Execution",
+        "name": "QAF-chrome",
+        "browserVersion": "latest",
+        "network": true,
+        "console": true,
+        "geoLocation": "IN",
+        "screenResolution": "2560x1440",
+        "selenium_version": "4.27.0"
+      },
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+        "args": [],
+        "extensions": []
+      }
+    },
+    "browser-actual-capabilities": {
+      "networkConnectionEnabled": "false",
+      "chrome": "{chromedriverVersion=136.0.7103.93 (d15f7e0b7b458c1502136e8aee33a8187c49a489-refs/branch-heads/7103@{#1841}), userDataDir=C:\\Windows\\SystemTemp\\scoped_dir6076_1392415865}",
+      "timeouts": "{implicit=0, pageLoad=300000, script=30000}",
+      "pageLoadStrategy": "normal",
+      "unhandledPromptBehavior": "dismiss and notify",
+      "strictFileInteractability": "false",
+      "proxy": "Proxy()",
+      "webauthn:extension:minPinLength": "true",
+      "goog:chromeOptions": "{debuggerAddress=localhost:9225}",
+      "webauthn:extension:credBlob": "true",
+      "webauthn:extension:prf": "true",
+      "acceptInsecureCerts": "false",
+      "browserVersion": "136.0.7103.93",
+      "fedcm:accounts": "true",
+      "browserName": "chrome",
+      "platformName": "windows",
+      "setWindowRect": "true",
+      "webauthn:extension:largeBlob": "true",
+      "webauthn:virtualAuthenticators": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0-RC3",
+      "qaf-Build-Time": "04-Feb-2024 19:07:15",
+      "qaf-Version": "4.0"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "baseurl": "http://www.google.com/"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Amazon.com Inc.",
+      "java.version": "11.0.27",
+      "os.arch": "aarch64",
+      "host": "LT-MBP-364.local",
+      "os.name": "Mac OS X",
+      "user.name": "dhakshath",
+      "os.version": "15.4.1"
+    }
+  },
+  "startTime": 1746795581922,
+  "endTime": 1746795601057
+}

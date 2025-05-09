@@ -1,0 +1,104 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "Feature": " Sample Test Run in BDD - Headers",
+        "groups": [
+          "Headers",
+          "Numbers"
+        ],
+        "lineNo": 38.0,
+        "name": "Navigate and Click on Header Numbers",
+        "reference": "resources/features/headers.feature",
+        "resultFileName": "NavigateAndClickOnHeaderNumbers",
+        "sign": "resources.features.headers.feature.Navigate and Click on Header Numbers()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1746795866548,
+      "duration": 20731,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "Feature": " Sample Test Run in BDD - Headers",
+        "groups": [
+          "Headers",
+          "About"
+        ],
+        "lineNo": 45.0,
+        "name": "Navigate and Click on Header About",
+        "reference": "resources/features/headers.feature",
+        "resultFileName": "NavigateAndClickOnHeaderAbout",
+        "sign": "resources.features.headers.feature.Navigate and Click on Header About()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1746795866548,
+      "duration": 20731,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "Feature": " Sample Test Run in BDD - Headers",
+        "groups": [
+          "Headers",
+          "Domains"
+        ],
+        "lineNo": 24.0,
+        "name": "Navigate and Click on Header Domain",
+        "reference": "resources/features/headers.feature",
+        "resultFileName": "NavigateAndClickOnHeaderDomain",
+        "sign": "resources.features.headers.feature.Navigate and Click on Header Domain()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1746795866548,
+      "duration": 20800,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "Feature": " Sample Test Run in BDD - Headers",
+        "groups": [
+          "Headers",
+          "Protocols"
+        ],
+        "lineNo": 31,
+        "name": "Navigate and Click on Header Protocols",
+        "reference": "resources/features/headers.feature",
+        "resultFileName": "NavigateAndClickOnHeaderProtocols",
+        "sign": "resources.features.headers.feature.Navigate and Click on Header Protocols()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1746795866548,
+      "duration": 37262,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}
