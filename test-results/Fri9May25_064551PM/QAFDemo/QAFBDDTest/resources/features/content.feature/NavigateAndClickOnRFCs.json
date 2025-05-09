@@ -1,0 +1,466 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I want to navigate to website",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://example.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1181
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "website is loaded",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1, using=tag name}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.FE7EBDFEA80A3105B8AA535C2E2E329C.e.3",
+          "subLogs": [],
+          "duration": 243
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.tagName: h1",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.FE7EBDFEA80A3105B8AA535C2E2E329C.e.3\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 179
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1, using=tag name}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.FE7EBDFEA80A3105B8AA535C2E2E329C.e.3",
+          "subLogs": [],
+          "duration": 112
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.tagName: h1",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.FE7EBDFEA80A3105B8AA535C2E2E329C.e.3\"}"
+          ],
+          "result": "getElementText:Example Domain",
+          "subLogs": [],
+          "duration": 87
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I Click on {message}",
+      "args": [
+        "[More information]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'More information')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.FE7EBDFEA80A3105B8AA535C2E2E329C.e.4",
+          "subLogs": [],
+          "duration": 119
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(text(),'More information')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.FE7EBDFEA80A3105B8AA535C2E2E329C.e.4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 5676
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "{message} is to be visible",
+      "args": [
+        "[${RFC}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'RFC 2606')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.E5E36CC542D4BE471129701B5569C09F.e.46",
+          "subLogs": [],
+          "duration": 150
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'RFC 2606')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.E5E36CC542D4BE471129701B5569C09F.e.46\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 141
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'RFC 2606')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.E5E36CC542D4BE471129701B5569C09F.e.46",
+          "subLogs": [],
+          "duration": 112
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[contains(text(),'RFC 2606')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.E5E36CC542D4BE471129701B5569C09F.e.46\"}"
+          ],
+          "result": "getElementText:RFC 2606",
+          "subLogs": [],
+          "duration": 183
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I Click on {message}",
+      "args": [
+        "[${RFC}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'RFC 2606')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.E5E36CC542D4BE471129701B5569C09F.e.46",
+          "subLogs": [],
+          "duration": 88
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(text(),'RFC 2606')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.E5E36CC542D4BE471129701B5569C09F.e.46\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1183
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "{message} is to be visible",
+      "args": [
+        "[${DOMAINS}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Top Level DNS')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5",
+          "subLogs": [],
+          "duration": 301
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Top Level DNS')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 129
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Top Level DNS')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5",
+          "subLogs": [],
+          "duration": 329
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Top Level DNS')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 477
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Top Level DNS')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5",
+          "subLogs": [],
+          "duration": 166
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Top Level DNS')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 467
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Top Level DNS')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5",
+          "subLogs": [],
+          "duration": 232
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Top Level DNS')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 258
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Top Level DNS')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5",
+          "subLogs": [],
+          "duration": 389
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Top Level DNS')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 181
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Top Level DNS')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5",
+          "subLogs": [],
+          "duration": 247
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Top Level DNS')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 245
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Top Level DNS')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5",
+          "subLogs": [],
+          "duration": 106
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Top Level DNS')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 165
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Top Level DNS')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5",
+          "subLogs": [],
+          "duration": 137
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Top Level DNS')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 140
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Top Level DNS')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5",
+          "subLogs": [],
+          "duration": 105
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Top Level DNS')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 107
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Top Level DNS')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5",
+          "subLogs": [],
+          "duration": 146
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Top Level DNS')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 151
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Top Level DNS')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5",
+          "subLogs": [],
+          "duration": 94
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Top Level DNS')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 123
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Top Level DNS')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5",
+          "subLogs": [],
+          "duration": 131
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Top Level DNS')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.6B2AF1298E83BC7B88863D218A4B341F.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 107
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I want to navigate to website",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 10612,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And website is loaded",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 624,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Click on \"More information\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 5797,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then \"RFC 2606\" is to be visible",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1904,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Click on \"RFC 2606\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1272,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then \"Top Level DNS\" is to be visible",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 10486,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

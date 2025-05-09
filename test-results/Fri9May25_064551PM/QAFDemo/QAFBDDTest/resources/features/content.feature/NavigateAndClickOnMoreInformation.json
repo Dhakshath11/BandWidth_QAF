@@ -1,0 +1,183 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I want to navigate to website",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://example.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1038
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "website is loaded",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1, using=tag name}"
+          ],
+          "result": "id: f.BFC489BAF2D057C5E2211019ED488059.d.156E47DD0F8DAE59DDC2F13494FB4741.e.3",
+          "subLogs": [],
+          "duration": 258
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.tagName: h1",
+            "{\"id\":\"f.BFC489BAF2D057C5E2211019ED488059.d.156E47DD0F8DAE59DDC2F13494FB4741.e.3\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 230
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1, using=tag name}"
+          ],
+          "result": "id: f.BFC489BAF2D057C5E2211019ED488059.d.156E47DD0F8DAE59DDC2F13494FB4741.e.3",
+          "subLogs": [],
+          "duration": 105
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.tagName: h1",
+            "{\"id\":\"f.BFC489BAF2D057C5E2211019ED488059.d.156E47DD0F8DAE59DDC2F13494FB4741.e.3\"}"
+          ],
+          "result": "getElementText:Example Domain",
+          "subLogs": [],
+          "duration": 109
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I Click on {message}",
+      "args": [
+        "[More information]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'More information')], using=xpath}"
+          ],
+          "result": "id: f.BFC489BAF2D057C5E2211019ED488059.d.156E47DD0F8DAE59DDC2F13494FB4741.e.4",
+          "subLogs": [],
+          "duration": 117
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(text(),'More information')]",
+            "{\"id\":\"f.BFC489BAF2D057C5E2211019ED488059.d.156E47DD0F8DAE59DDC2F13494FB4741.e.4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 6186
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "{message} is to be visible",
+      "args": [
+        "[Further Reading]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Further Reading')], using=xpath}"
+          ],
+          "result": "id: f.BFC489BAF2D057C5E2211019ED488059.d.88E92397B6033E7F55CCC52E9FC8873A.e.16",
+          "subLogs": [],
+          "duration": 103
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Further Reading')]",
+            "{\"id\":\"f.BFC489BAF2D057C5E2211019ED488059.d.88E92397B6033E7F55CCC52E9FC8873A.e.16\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 165
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Further Reading')], using=xpath}"
+          ],
+          "result": "id: f.BFC489BAF2D057C5E2211019ED488059.d.88E92397B6033E7F55CCC52E9FC8873A.e.16",
+          "subLogs": [],
+          "duration": 133
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[contains(text(),'Further Reading')]",
+            "{\"id\":\"f.BFC489BAF2D057C5E2211019ED488059.d.88E92397B6033E7F55CCC52E9FC8873A.e.16\"}"
+          ],
+          "result": "getElementText:Further Reading",
+          "subLogs": [],
+          "duration": 152
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I want to navigate to website",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 9989,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And website is loaded",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 705,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Click on \"More information\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 6303,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then \"Further Reading\" is to be visible",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1889,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

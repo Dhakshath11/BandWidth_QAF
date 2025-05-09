@@ -1,0 +1,466 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I want to navigate to website",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://example.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1278
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "website is loaded",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1, using=tag name}"
+          ],
+          "result": "id: f.60309072D3B6A60F00BFE3AE73396EA4.d.A23DD0A53295B48242ACEEB41F69A172.e.3",
+          "subLogs": [],
+          "duration": 147
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.tagName: h1",
+            "{\"id\":\"f.60309072D3B6A60F00BFE3AE73396EA4.d.A23DD0A53295B48242ACEEB41F69A172.e.3\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 172
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1, using=tag name}"
+          ],
+          "result": "id: f.60309072D3B6A60F00BFE3AE73396EA4.d.A23DD0A53295B48242ACEEB41F69A172.e.3",
+          "subLogs": [],
+          "duration": 81
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.tagName: h1",
+            "{\"id\":\"f.60309072D3B6A60F00BFE3AE73396EA4.d.A23DD0A53295B48242ACEEB41F69A172.e.3\"}"
+          ],
+          "result": "getElementText:Example Domain",
+          "subLogs": [],
+          "duration": 113
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I Click on {message}",
+      "args": [
+        "[More information]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'More information')], using=xpath}"
+          ],
+          "result": "id: f.60309072D3B6A60F00BFE3AE73396EA4.d.A23DD0A53295B48242ACEEB41F69A172.e.4",
+          "subLogs": [],
+          "duration": 102
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(text(),'More information')]",
+            "{\"id\":\"f.60309072D3B6A60F00BFE3AE73396EA4.d.A23DD0A53295B48242ACEEB41F69A172.e.4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 7981
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "{message} is to be visible",
+      "args": [
+        "[Further Reading]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Further Reading')], using=xpath}"
+          ],
+          "result": "id: f.60309072D3B6A60F00BFE3AE73396EA4.d.34F8762089277639CBA8B2D071AF8B42.e.18",
+          "subLogs": [],
+          "duration": 115
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Further Reading')]",
+            "{\"id\":\"f.60309072D3B6A60F00BFE3AE73396EA4.d.34F8762089277639CBA8B2D071AF8B42.e.18\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 179
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Further Reading')], using=xpath}"
+          ],
+          "result": "id: f.60309072D3B6A60F00BFE3AE73396EA4.d.34F8762089277639CBA8B2D071AF8B42.e.18",
+          "subLogs": [],
+          "duration": 104
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[contains(text(),'Further Reading')]",
+            "{\"id\":\"f.60309072D3B6A60F00BFE3AE73396EA4.d.34F8762089277639CBA8B2D071AF8B42.e.18\"}"
+          ],
+          "result": "getElementText:Further Reading",
+          "subLogs": [],
+          "duration": 106
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I Click on {message}",
+      "args": [
+        "[Protocols]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocols')], using=xpath}"
+          ],
+          "result": "id: f.60309072D3B6A60F00BFE3AE73396EA4.d.34F8762089277639CBA8B2D071AF8B42.e.44",
+          "subLogs": [],
+          "duration": 92
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(text(),'Protocols')]",
+            "{\"id\":\"f.60309072D3B6A60F00BFE3AE73396EA4.d.34F8762089277639CBA8B2D071AF8B42.e.44\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1804
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "{message} is to be visible",
+      "args": [
+        "[Protocol Registries]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "id: f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180",
+          "subLogs": [],
+          "duration": 253
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Protocol Registries')]",
+            "{\"id\":\"f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 225
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "id: f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180",
+          "subLogs": [],
+          "duration": 157
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Protocol Registries')]",
+            "{\"id\":\"f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 211
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "id: f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180",
+          "subLogs": [],
+          "duration": 131
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Protocol Registries')]",
+            "{\"id\":\"f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 351
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "id: f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180",
+          "subLogs": [],
+          "duration": 155
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Protocol Registries')]",
+            "{\"id\":\"f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 186
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "id: f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180",
+          "subLogs": [],
+          "duration": 219
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Protocol Registries')]",
+            "{\"id\":\"f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 501
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "id: f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180",
+          "subLogs": [],
+          "duration": 149
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Protocol Registries')]",
+            "{\"id\":\"f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 243
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "id: f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180",
+          "subLogs": [],
+          "duration": 112
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Protocol Registries')]",
+            "{\"id\":\"f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 95
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "id: f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180",
+          "subLogs": [],
+          "duration": 234
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Protocol Registries')]",
+            "{\"id\":\"f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 127
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "id: f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180",
+          "subLogs": [],
+          "duration": 112
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Protocol Registries')]",
+            "{\"id\":\"f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 119
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "id: f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180",
+          "subLogs": [],
+          "duration": 189
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Protocol Registries')]",
+            "{\"id\":\"f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 121
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "id: f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180",
+          "subLogs": [],
+          "duration": 91
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Protocol Registries')]",
+            "{\"id\":\"f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 108
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "id: f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180",
+          "subLogs": [],
+          "duration": 176
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Protocol Registries')]",
+            "{\"id\":\"f.60309072D3B6A60F00BFE3AE73396EA4.d.CE52269723C8CA6DE47DC0AE19004257.e.180\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 210
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I want to navigate to website",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 13834,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And website is loaded",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 515,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Click on \"More information\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 8083,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then \"Further Reading\" is to be visible",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1806,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Click on \"Protocols\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1897,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then \"Protocol Registries\" is to be visible",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 10034,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

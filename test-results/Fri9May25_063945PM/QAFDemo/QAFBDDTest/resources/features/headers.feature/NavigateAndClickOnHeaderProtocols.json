@@ -1,0 +1,252 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I want to navigate to website",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://example.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1506
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "website is loaded",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1, using=tag name}"
+          ],
+          "result": "id: f.FEE3960EB0DF97604170B728777437F3.d.105A8B18C3483773E0B32A007D2970EC.e.2",
+          "subLogs": [],
+          "duration": 339
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.tagName: h1",
+            "{\"id\":\"f.FEE3960EB0DF97604170B728777437F3.d.105A8B18C3483773E0B32A007D2970EC.e.2\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 687
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1, using=tag name}"
+          ],
+          "result": "id: f.FEE3960EB0DF97604170B728777437F3.d.105A8B18C3483773E0B32A007D2970EC.e.2",
+          "subLogs": [],
+          "duration": 442
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.tagName: h1",
+            "{\"id\":\"f.FEE3960EB0DF97604170B728777437F3.d.105A8B18C3483773E0B32A007D2970EC.e.2\"}"
+          ],
+          "result": "getElementText:Example Domain",
+          "subLogs": [],
+          "duration": 276
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I Click on {message}",
+      "args": [
+        "[Protocols]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocols')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Protocols')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [843b7dbac95a7926cc666616dec9f84b, findElement {value=//*[contains(text(),'Protocols')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 843b7dbac95a7926cc666616dec9f84b",
+          "subLogs": [],
+          "duration": 177
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "{message} is to be visible",
+      "args": [
+        "[Protocol Registries]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Protocol Registries')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [843b7dbac95a7926cc666616dec9f84b, findElement {value=//*[contains(text(),'Protocol Registries')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 843b7dbac95a7926cc666616dec9f84b",
+          "subLogs": [],
+          "duration": 118
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Protocol Registries')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [843b7dbac95a7926cc666616dec9f84b, findElement {value=//*[contains(text(),'Protocol Registries')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 843b7dbac95a7926cc666616dec9f84b",
+          "subLogs": [],
+          "duration": 111
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Protocol Registries')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [843b7dbac95a7926cc666616dec9f84b, findElement {value=//*[contains(text(),'Protocol Registries')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 843b7dbac95a7926cc666616dec9f84b",
+          "subLogs": [],
+          "duration": 254
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Protocol Registries')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [843b7dbac95a7926cc666616dec9f84b, findElement {value=//*[contains(text(),'Protocol Registries')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 843b7dbac95a7926cc666616dec9f84b",
+          "subLogs": [],
+          "duration": 291
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Protocol Registries')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [843b7dbac95a7926cc666616dec9f84b, findElement {value=//*[contains(text(),'Protocol Registries')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 843b7dbac95a7926cc666616dec9f84b",
+          "subLogs": [],
+          "duration": 275
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Protocol Registries')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [843b7dbac95a7926cc666616dec9f84b, findElement {value=//*[contains(text(),'Protocol Registries')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 843b7dbac95a7926cc666616dec9f84b",
+          "subLogs": [],
+          "duration": 353
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Protocol Registries')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [843b7dbac95a7926cc666616dec9f84b, findElement {value=//*[contains(text(),'Protocol Registries')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 843b7dbac95a7926cc666616dec9f84b",
+          "subLogs": [],
+          "duration": 625
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Protocol Registries')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [843b7dbac95a7926cc666616dec9f84b, findElement {value=//*[contains(text(),'Protocol Registries')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 843b7dbac95a7926cc666616dec9f84b",
+          "subLogs": [],
+          "duration": 336
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Protocol Registries')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [843b7dbac95a7926cc666616dec9f84b, findElement {value=//*[contains(text(),'Protocol Registries')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 843b7dbac95a7926cc666616dec9f84b",
+          "subLogs": [],
+          "duration": 391
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Protocol Registries')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [843b7dbac95a7926cc666616dec9f84b, findElement {value=//*[contains(text(),'Protocol Registries')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 843b7dbac95a7926cc666616dec9f84b",
+          "subLogs": [],
+          "duration": 390
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Protocol Registries')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [843b7dbac95a7926cc666616dec9f84b, findElement {value=//*[contains(text(),'Protocol Registries')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 843b7dbac95a7926cc666616dec9f84b",
+          "subLogs": [],
+          "duration": 567
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Protocol Registries')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [843b7dbac95a7926cc666616dec9f84b, findElement {value=//*[contains(text(),'Protocol Registries')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 843b7dbac95a7926cc666616dec9f84b",
+          "subLogs": [],
+          "duration": 187
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Protocol Registries')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Protocol Registries')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [843b7dbac95a7926cc666616dec9f84b, findElement {value=//*[contains(text(),'Protocol Registries')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 843b7dbac95a7926cc666616dec9f84b",
+          "subLogs": [],
+          "duration": 232
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I want to navigate to website",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 10925,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And website is loaded",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1744,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Click on \"Protocols\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 177,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then \"Protocol Registries\" is to be visible",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 10177,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

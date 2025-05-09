@@ -1,0 +1,485 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I want to navigate to website",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://example.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1401
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "website is loaded",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1, using=tag name}"
+          ],
+          "result": "id: f.7F3FA41A4B10B26F8593230ADC0352CA.d.033CCD59FBDF636306437BF43CAE3E67.e.3",
+          "subLogs": [],
+          "duration": 179
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.tagName: h1",
+            "{\"id\":\"f.7F3FA41A4B10B26F8593230ADC0352CA.d.033CCD59FBDF636306437BF43CAE3E67.e.3\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 168
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1, using=tag name}"
+          ],
+          "result": "id: f.7F3FA41A4B10B26F8593230ADC0352CA.d.033CCD59FBDF636306437BF43CAE3E67.e.3",
+          "subLogs": [],
+          "duration": 114
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.tagName: h1",
+            "{\"id\":\"f.7F3FA41A4B10B26F8593230ADC0352CA.d.033CCD59FBDF636306437BF43CAE3E67.e.3\"}"
+          ],
+          "result": "getElementText:Example Domain",
+          "subLogs": [],
+          "duration": 95
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I Click on {message}",
+      "args": [
+        "[More information]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'More information')], using=xpath}"
+          ],
+          "result": "id: f.7F3FA41A4B10B26F8593230ADC0352CA.d.033CCD59FBDF636306437BF43CAE3E67.e.4",
+          "subLogs": [],
+          "duration": 100
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(text(),'More information')]",
+            "{\"id\":\"f.7F3FA41A4B10B26F8593230ADC0352CA.d.033CCD59FBDF636306437BF43CAE3E67.e.4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 6038
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "{message} is to be visible",
+      "args": [
+        "[Reserved Domains]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Reserved Domains')], using=xpath}"
+          ],
+          "result": "id: f.7F3FA41A4B10B26F8593230ADC0352CA.d.285FC83BDFCDA3A9C5287DA45A83069B.e.45",
+          "subLogs": [],
+          "duration": 168
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Reserved Domains')]",
+            "{\"id\":\"f.7F3FA41A4B10B26F8593230ADC0352CA.d.285FC83BDFCDA3A9C5287DA45A83069B.e.45\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 132
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Reserved Domains')], using=xpath}"
+          ],
+          "result": "id: f.7F3FA41A4B10B26F8593230ADC0352CA.d.285FC83BDFCDA3A9C5287DA45A83069B.e.45",
+          "subLogs": [],
+          "duration": 107
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[contains(text(),'Reserved Domains')]",
+            "{\"id\":\"f.7F3FA41A4B10B26F8593230ADC0352CA.d.285FC83BDFCDA3A9C5287DA45A83069B.e.45\"}"
+          ],
+          "result": "getElementText:IANA-managed Reserved Domains",
+          "subLogs": [],
+          "duration": 112
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I Click on {message}",
+      "args": [
+        "[Reserved Domains]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Reserved Domains')], using=xpath}"
+          ],
+          "result": "id: f.7F3FA41A4B10B26F8593230ADC0352CA.d.285FC83BDFCDA3A9C5287DA45A83069B.e.45",
+          "subLogs": [],
+          "duration": 89
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(text(),'Reserved Domains')]",
+            "{\"id\":\"f.7F3FA41A4B10B26F8593230ADC0352CA.d.285FC83BDFCDA3A9C5287DA45A83069B.e.45\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 3034
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "{message} is to be visible",
+      "args": [
+        "[Reserved Domains]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Reserved Domains')], using=xpath}"
+          ],
+          "result": "id: f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79",
+          "subLogs": [],
+          "duration": 230
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Reserved Domains')]",
+            "{\"id\":\"f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 229
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Reserved Domains')], using=xpath}"
+          ],
+          "result": "id: f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79",
+          "subLogs": [],
+          "duration": 354
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Reserved Domains')]",
+            "{\"id\":\"f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 362
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Reserved Domains')], using=xpath}"
+          ],
+          "result": "id: f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79",
+          "subLogs": [],
+          "duration": 167
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Reserved Domains')]",
+            "{\"id\":\"f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 195
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Reserved Domains')], using=xpath}"
+          ],
+          "result": "id: f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79",
+          "subLogs": [],
+          "duration": 351
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Reserved Domains')]",
+            "{\"id\":\"f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 280
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Reserved Domains')], using=xpath}"
+          ],
+          "result": "id: f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79",
+          "subLogs": [],
+          "duration": 219
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Reserved Domains')]",
+            "{\"id\":\"f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 260
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Reserved Domains')], using=xpath}"
+          ],
+          "result": "id: f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79",
+          "subLogs": [],
+          "duration": 81
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Reserved Domains')]",
+            "{\"id\":\"f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 95
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Reserved Domains')], using=xpath}"
+          ],
+          "result": "id: f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79",
+          "subLogs": [],
+          "duration": 87
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Reserved Domains')]",
+            "{\"id\":\"f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 151
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Reserved Domains')], using=xpath}"
+          ],
+          "result": "id: f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79",
+          "subLogs": [],
+          "duration": 149
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Reserved Domains')]",
+            "{\"id\":\"f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 114
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Reserved Domains')], using=xpath}"
+          ],
+          "result": "id: f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79",
+          "subLogs": [],
+          "duration": 100
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Reserved Domains')]",
+            "{\"id\":\"f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 98
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Reserved Domains')], using=xpath}"
+          ],
+          "result": "id: f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79",
+          "subLogs": [],
+          "duration": 92
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Reserved Domains')]",
+            "{\"id\":\"f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 123
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Reserved Domains')], using=xpath}"
+          ],
+          "result": "id: f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79",
+          "subLogs": [],
+          "duration": 88
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Reserved Domains')]",
+            "{\"id\":\"f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 94
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Reserved Domains')], using=xpath}"
+          ],
+          "result": "id: f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79",
+          "subLogs": [],
+          "duration": 87
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Reserved Domains')]",
+            "{\"id\":\"f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 103
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Reserved Domains')], using=xpath}"
+          ],
+          "result": "id: f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79",
+          "subLogs": [],
+          "duration": 87
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Reserved Domains')]",
+            "{\"id\":\"f.7F3FA41A4B10B26F8593230ADC0352CA.d.67BC189ACFD10C8F28F2E6B9FB96C70A.e.79\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 114
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I want to navigate to website",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 9578,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And website is loaded",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 562,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Click on \"More information\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 6166,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then \"Reserved Domains\" is to be visible",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1803,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Click on \"Reserved Domains\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 3124,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then \"Reserved Domains\" is to be visible",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 10367,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

@@ -1,0 +1,391 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I want to navigate to website",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://example.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1220
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "website is loaded",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1, using=tag name}"
+          ],
+          "result": "id: f.A0832E07B6D0A19781D8A2993DB3B233.d.396ED5BB3E441549106747DBBEEB8D68.e.3",
+          "subLogs": [],
+          "duration": 102
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.tagName: h1",
+            "{\"id\":\"f.A0832E07B6D0A19781D8A2993DB3B233.d.396ED5BB3E441549106747DBBEEB8D68.e.3\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 256
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1, using=tag name}"
+          ],
+          "result": "id: f.A0832E07B6D0A19781D8A2993DB3B233.d.396ED5BB3E441549106747DBBEEB8D68.e.3",
+          "subLogs": [],
+          "duration": 90
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.tagName: h1",
+            "{\"id\":\"f.A0832E07B6D0A19781D8A2993DB3B233.d.396ED5BB3E441549106747DBBEEB8D68.e.3\"}"
+          ],
+          "result": "getElementText:Example Domain",
+          "subLogs": [],
+          "duration": 116
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I Click on {message}",
+      "args": [
+        "[More information]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'More information')], using=xpath}"
+          ],
+          "result": "id: f.A0832E07B6D0A19781D8A2993DB3B233.d.396ED5BB3E441549106747DBBEEB8D68.e.4",
+          "subLogs": [],
+          "duration": 116
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(text(),'More information')]",
+            "{\"id\":\"f.A0832E07B6D0A19781D8A2993DB3B233.d.396ED5BB3E441549106747DBBEEB8D68.e.4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 8233
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "{message} is to be visible",
+      "args": [
+        "[Further Reading]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Further Reading')], using=xpath}"
+          ],
+          "result": "id: f.A0832E07B6D0A19781D8A2993DB3B233.d.CD49488D892BE1EDCACBE753E84084E4.e.18",
+          "subLogs": [],
+          "duration": 189
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Further Reading')]",
+            "{\"id\":\"f.A0832E07B6D0A19781D8A2993DB3B233.d.CD49488D892BE1EDCACBE753E84084E4.e.18\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 125
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Further Reading')], using=xpath}"
+          ],
+          "result": "id: f.A0832E07B6D0A19781D8A2993DB3B233.d.CD49488D892BE1EDCACBE753E84084E4.e.18",
+          "subLogs": [],
+          "duration": 278
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[contains(text(),'Further Reading')]",
+            "{\"id\":\"f.A0832E07B6D0A19781D8A2993DB3B233.d.CD49488D892BE1EDCACBE753E84084E4.e.18\"}"
+          ],
+          "result": "getElementText:Further Reading",
+          "subLogs": [],
+          "duration": 263
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I Click on {message}",
+      "args": [
+        "[Domains]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Domains')], using=xpath}"
+          ],
+          "result": "id: f.A0832E07B6D0A19781D8A2993DB3B233.d.CD49488D892BE1EDCACBE753E84084E4.e.44",
+          "subLogs": [],
+          "duration": 91
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(text(),'Domains')]",
+            "{\"id\":\"f.A0832E07B6D0A19781D8A2993DB3B233.d.CD49488D892BE1EDCACBE753E84084E4.e.44\"}"
+          ],
+          "result": "element not interactable\n  (Session info: chrome=136.0.7103.93)\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [390590444b86eaa083b85a084d42486f, clickElement {id=f.A0832E07B6D0A19781D8A2993DB3B233.d.CD49488D892BE1EDCACBE753E84084E4.e.44}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 390590444b86eaa083b85a084d42486f",
+          "subLogs": [],
+          "duration": 100
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "{message} is to be visible",
+      "args": [
+        "[Domain Name Services]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Domain Name Services')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Domain Name Services')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [390590444b86eaa083b85a084d42486f, findElement {value=//*[contains(text(),'Domain Name Services')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 390590444b86eaa083b85a084d42486f",
+          "subLogs": [],
+          "duration": 159
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Domain Name Services')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Domain Name Services')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [390590444b86eaa083b85a084d42486f, findElement {value=//*[contains(text(),'Domain Name Services')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 390590444b86eaa083b85a084d42486f",
+          "subLogs": [],
+          "duration": 170
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Domain Name Services')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Domain Name Services')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [390590444b86eaa083b85a084d42486f, findElement {value=//*[contains(text(),'Domain Name Services')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 390590444b86eaa083b85a084d42486f",
+          "subLogs": [],
+          "duration": 148
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Domain Name Services')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Domain Name Services')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [390590444b86eaa083b85a084d42486f, findElement {value=//*[contains(text(),'Domain Name Services')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 390590444b86eaa083b85a084d42486f",
+          "subLogs": [],
+          "duration": 105
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Domain Name Services')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Domain Name Services')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [390590444b86eaa083b85a084d42486f, findElement {value=//*[contains(text(),'Domain Name Services')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 390590444b86eaa083b85a084d42486f",
+          "subLogs": [],
+          "duration": 124
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Domain Name Services')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Domain Name Services')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [390590444b86eaa083b85a084d42486f, findElement {value=//*[contains(text(),'Domain Name Services')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 390590444b86eaa083b85a084d42486f",
+          "subLogs": [],
+          "duration": 95
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Domain Name Services')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Domain Name Services')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [390590444b86eaa083b85a084d42486f, findElement {value=//*[contains(text(),'Domain Name Services')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 390590444b86eaa083b85a084d42486f",
+          "subLogs": [],
+          "duration": 96
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Domain Name Services')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Domain Name Services')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [390590444b86eaa083b85a084d42486f, findElement {value=//*[contains(text(),'Domain Name Services')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 390590444b86eaa083b85a084d42486f",
+          "subLogs": [],
+          "duration": 134
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Domain Name Services')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Domain Name Services')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [390590444b86eaa083b85a084d42486f, findElement {value=//*[contains(text(),'Domain Name Services')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 390590444b86eaa083b85a084d42486f",
+          "subLogs": [],
+          "duration": 130
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Domain Name Services')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Domain Name Services')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [390590444b86eaa083b85a084d42486f, findElement {value=//*[contains(text(),'Domain Name Services')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 390590444b86eaa083b85a084d42486f",
+          "subLogs": [],
+          "duration": 134
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Domain Name Services')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Domain Name Services')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [390590444b86eaa083b85a084d42486f, findElement {value=//*[contains(text(),'Domain Name Services')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 390590444b86eaa083b85a084d42486f",
+          "subLogs": [],
+          "duration": 111
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Domain Name Services')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Domain Name Services')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [390590444b86eaa083b85a084d42486f, findElement {value=//*[contains(text(),'Domain Name Services')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 390590444b86eaa083b85a084d42486f",
+          "subLogs": [],
+          "duration": 138
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Domain Name Services')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Domain Name Services')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [390590444b86eaa083b85a084d42486f, findElement {value=//*[contains(text(),'Domain Name Services')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 390590444b86eaa083b85a084d42486f",
+          "subLogs": [],
+          "duration": 108
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Domain Name Services')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Domain Name Services')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [390590444b86eaa083b85a084d42486f, findElement {value=//*[contains(text(),'Domain Name Services')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 390590444b86eaa083b85a084d42486f",
+          "subLogs": [],
+          "duration": 131
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Domain Name Services')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Domain Name Services')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [390590444b86eaa083b85a084d42486f, findElement {value=//*[contains(text(),'Domain Name Services')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 390590444b86eaa083b85a084d42486f",
+          "subLogs": [],
+          "duration": 165
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Domain Name Services')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Domain Name Services')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [390590444b86eaa083b85a084d42486f, findElement {value=//*[contains(text(),'Domain Name Services')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 390590444b86eaa083b85a084d42486f",
+          "subLogs": [],
+          "duration": 111
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Domain Name Services')], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),'Domain Name Services')]\"}\n  (Session info: chrome=136.0.7103.93)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.30.0', revision: '509c7f17cc*'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCommand: [390590444b86eaa083b85a084d42486f, findElement {value=//*[contains(text(),'Domain Name Services')], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 390590444b86eaa083b85a084d42486f",
+          "subLogs": [],
+          "duration": 111
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I want to navigate to website",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 10241,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And website is loaded",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 572,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Click on \"More information\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 8369,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then \"Further Reading\" is to be visible",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 2129,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Click on \"Domains\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 392,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then \"Domain Name Services\" is to be visible",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 10237,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

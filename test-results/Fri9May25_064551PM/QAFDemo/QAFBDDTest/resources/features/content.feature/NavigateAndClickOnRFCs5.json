@@ -1,0 +1,504 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I want to navigate to website",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://example.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 413
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "website is loaded",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1, using=tag name}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.5301C474B0AA30225DB39F20B3B7DBC3.e.3",
+          "subLogs": [],
+          "duration": 117
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.tagName: h1",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.5301C474B0AA30225DB39F20B3B7DBC3.e.3\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 132
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1, using=tag name}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.5301C474B0AA30225DB39F20B3B7DBC3.e.3",
+          "subLogs": [],
+          "duration": 99
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.tagName: h1",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.5301C474B0AA30225DB39F20B3B7DBC3.e.3\"}"
+          ],
+          "result": "getElementText:Example Domain",
+          "subLogs": [],
+          "duration": 96
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I Click on {message}",
+      "args": [
+        "[More information]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'More information')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.5301C474B0AA30225DB39F20B3B7DBC3.e.4",
+          "subLogs": [],
+          "duration": 99
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(text(),'More information')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.5301C474B0AA30225DB39F20B3B7DBC3.e.4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1020
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "{message} is to be visible",
+      "args": [
+        "[${RFC}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'RFC 6761')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.E7C83CCF17E078D0CC8FDF1DA5271EB2.e.43",
+          "subLogs": [],
+          "duration": 122
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'RFC 6761')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.E7C83CCF17E078D0CC8FDF1DA5271EB2.e.43\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 111
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'RFC 6761')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.E7C83CCF17E078D0CC8FDF1DA5271EB2.e.43",
+          "subLogs": [],
+          "duration": 160
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[contains(text(),'RFC 6761')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.E7C83CCF17E078D0CC8FDF1DA5271EB2.e.43\"}"
+          ],
+          "result": "getElementText:RFC 6761",
+          "subLogs": [],
+          "duration": 123
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I Click on {message}",
+      "args": [
+        "[${RFC}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'RFC 6761')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.E7C83CCF17E078D0CC8FDF1DA5271EB2.e.43",
+          "subLogs": [],
+          "duration": 125
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(text(),'RFC 6761')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.E7C83CCF17E078D0CC8FDF1DA5271EB2.e.43\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1231
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "{message} is to be visible",
+      "args": [
+        "[${DOMAINS}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Special-Use Domain')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5",
+          "subLogs": [],
+          "duration": 230
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Special-Use Domain')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 237
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Special-Use Domain')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5",
+          "subLogs": [],
+          "duration": 127
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Special-Use Domain')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 294
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Special-Use Domain')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5",
+          "subLogs": [],
+          "duration": 178
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Special-Use Domain')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 110
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Special-Use Domain')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5",
+          "subLogs": [],
+          "duration": 147
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Special-Use Domain')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 115
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Special-Use Domain')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5",
+          "subLogs": [],
+          "duration": 107
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Special-Use Domain')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 105
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Special-Use Domain')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5",
+          "subLogs": [],
+          "duration": 75
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Special-Use Domain')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 110
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Special-Use Domain')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5",
+          "subLogs": [],
+          "duration": 90
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Special-Use Domain')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 229
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Special-Use Domain')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5",
+          "subLogs": [],
+          "duration": 87
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Special-Use Domain')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 99
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Special-Use Domain')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5",
+          "subLogs": [],
+          "duration": 88
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Special-Use Domain')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 178
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Special-Use Domain')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5",
+          "subLogs": [],
+          "duration": 126
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Special-Use Domain')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 123
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Special-Use Domain')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5",
+          "subLogs": [],
+          "duration": 113
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Special-Use Domain')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 122
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Special-Use Domain')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5",
+          "subLogs": [],
+          "duration": 412
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Special-Use Domain')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 99
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Special-Use Domain')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5",
+          "subLogs": [],
+          "duration": 144
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Special-Use Domain')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 118
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Special-Use Domain')], using=xpath}"
+          ],
+          "result": "id: f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5",
+          "subLogs": [],
+          "duration": 96
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Special-Use Domain')]",
+            "{\"id\":\"f.64F8D4CBAE6D00114D454563FC928AEB.d.0E9858556DFA809FC640427F4113F228.e.5\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 109
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I want to navigate to website",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 413,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And website is loaded",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 448,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Click on \"More information\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1120,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then \"RFC 6761\" is to be visible",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1958,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Click on \"RFC 6761\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1356,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then \"Special-Use Domain\" is to be visible",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 10625,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

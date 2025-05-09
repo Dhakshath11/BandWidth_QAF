@@ -24,6 +24,8 @@ Feature: Sample Test Run in BDD - Headers
   Scenario: Navigate and Click on Header Domain
     Given I want to navigate to website
     And website is loaded
+    When I Click on "More information"
+    Then "Further Reading" is to be visible
     When I Click on "Domains"
     Then "Domain Name Services" is to be visible
 
@@ -31,6 +33,8 @@ Feature: Sample Test Run in BDD - Headers
   Scenario: Navigate and Click on Header Protocols
     Given I want to navigate to website
     And website is loaded
+    When I Click on "More information"
+    Then "Further Reading" is to be visible
     When I Click on "Protocols"
     Then "Protocol Registries" is to be visible
 
@@ -38,6 +42,8 @@ Feature: Sample Test Run in BDD - Headers
   Scenario: Navigate and Click on Header Numbers
     Given I want to navigate to website
     And website is loaded
+    When I Click on "More information"
+    Then "Further Reading" is to be visible
     When I Click on "Numbers"
     Then "Number Resources" is to be visible
 
@@ -45,5 +51,7 @@ Feature: Sample Test Run in BDD - Headers
   Scenario: Navigate and Click on Header About
     Given I want to navigate to website
     And website is loaded
+    When I Click on "More information"
+    Then "Further Reading" is to be visible
     When I Click on "About"
     Then "About us" is to be visible

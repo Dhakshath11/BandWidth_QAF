@@ -1,0 +1,371 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I want to navigate to website",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://example.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1161
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "website is loaded",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1, using=tag name}"
+          ],
+          "result": "id: f.A6F61C9DE71FE143991966E43D077A42.d.4982BDEFE2B99391B0AA14212C2E80BB.e.3",
+          "subLogs": [],
+          "duration": 169
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.tagName: h1",
+            "{\"id\":\"f.A6F61C9DE71FE143991966E43D077A42.d.4982BDEFE2B99391B0AA14212C2E80BB.e.3\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 303
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1, using=tag name}"
+          ],
+          "result": "id: f.A6F61C9DE71FE143991966E43D077A42.d.4982BDEFE2B99391B0AA14212C2E80BB.e.3",
+          "subLogs": [],
+          "duration": 132
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.tagName: h1",
+            "{\"id\":\"f.A6F61C9DE71FE143991966E43D077A42.d.4982BDEFE2B99391B0AA14212C2E80BB.e.3\"}"
+          ],
+          "result": "getElementText:Example Domain",
+          "subLogs": [],
+          "duration": 101
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I Click on {message}",
+      "args": [
+        "[More information]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'More information')], using=xpath}"
+          ],
+          "result": "id: f.A6F61C9DE71FE143991966E43D077A42.d.4982BDEFE2B99391B0AA14212C2E80BB.e.4",
+          "subLogs": [],
+          "duration": 114
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(text(),'More information')]",
+            "{\"id\":\"f.A6F61C9DE71FE143991966E43D077A42.d.4982BDEFE2B99391B0AA14212C2E80BB.e.4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 9511
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "{message} is to be visible",
+      "args": [
+        "[Further Reading]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Further Reading')], using=xpath}"
+          ],
+          "result": "id: f.A6F61C9DE71FE143991966E43D077A42.d.B4453BBAF70654631BC69C3CACF22E28.e.18",
+          "subLogs": [],
+          "duration": 198
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Further Reading')]",
+            "{\"id\":\"f.A6F61C9DE71FE143991966E43D077A42.d.B4453BBAF70654631BC69C3CACF22E28.e.18\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 163
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Further Reading')], using=xpath}"
+          ],
+          "result": "id: f.A6F61C9DE71FE143991966E43D077A42.d.B4453BBAF70654631BC69C3CACF22E28.e.18",
+          "subLogs": [],
+          "duration": 109
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[contains(text(),'Further Reading')]",
+            "{\"id\":\"f.A6F61C9DE71FE143991966E43D077A42.d.B4453BBAF70654631BC69C3CACF22E28.e.18\"}"
+          ],
+          "result": "getElementText:Further Reading",
+          "subLogs": [],
+          "duration": 114
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I Click on {message}",
+      "args": [
+        "[Numbers]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Numbers')], using=xpath}"
+          ],
+          "result": "id: f.A6F61C9DE71FE143991966E43D077A42.d.B4453BBAF70654631BC69C3CACF22E28.e.44",
+          "subLogs": [],
+          "duration": 129
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(text(),'Numbers')]",
+            "{\"id\":\"f.A6F61C9DE71FE143991966E43D077A42.d.B4453BBAF70654631BC69C3CACF22E28.e.44\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 8010
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "{message} is to be visible",
+      "args": [
+        "[Number Resources]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Number Resources')], using=xpath}"
+          ],
+          "result": "id: f.A6F61C9DE71FE143991966E43D077A42.d.9012A76F2A64DA026BC699EF867E9613.e.55",
+          "subLogs": [],
+          "duration": 427
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Number Resources')]",
+            "{\"id\":\"f.A6F61C9DE71FE143991966E43D077A42.d.9012A76F2A64DA026BC699EF867E9613.e.55\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 896
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Number Resources')], using=xpath}"
+          ],
+          "result": "id: f.A6F61C9DE71FE143991966E43D077A42.d.9012A76F2A64DA026BC699EF867E9613.e.55",
+          "subLogs": [],
+          "duration": 624
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Number Resources')]",
+            "{\"id\":\"f.A6F61C9DE71FE143991966E43D077A42.d.9012A76F2A64DA026BC699EF867E9613.e.55\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 475
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Number Resources')], using=xpath}"
+          ],
+          "result": "id: f.A6F61C9DE71FE143991966E43D077A42.d.9012A76F2A64DA026BC699EF867E9613.e.55",
+          "subLogs": [],
+          "duration": 376
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Number Resources')]",
+            "{\"id\":\"f.A6F61C9DE71FE143991966E43D077A42.d.9012A76F2A64DA026BC699EF867E9613.e.55\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 221
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Number Resources')], using=xpath}"
+          ],
+          "result": "id: f.A6F61C9DE71FE143991966E43D077A42.d.9012A76F2A64DA026BC699EF867E9613.e.55",
+          "subLogs": [],
+          "duration": 883
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Number Resources')]",
+            "{\"id\":\"f.A6F61C9DE71FE143991966E43D077A42.d.9012A76F2A64DA026BC699EF867E9613.e.55\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 1055
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Number Resources')], using=xpath}"
+          ],
+          "result": "id: f.A6F61C9DE71FE143991966E43D077A42.d.9012A76F2A64DA026BC699EF867E9613.e.55",
+          "subLogs": [],
+          "duration": 391
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Number Resources')]",
+            "{\"id\":\"f.A6F61C9DE71FE143991966E43D077A42.d.9012A76F2A64DA026BC699EF867E9613.e.55\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 374
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Number Resources')], using=xpath}"
+          ],
+          "result": "id: f.A6F61C9DE71FE143991966E43D077A42.d.9012A76F2A64DA026BC699EF867E9613.e.55",
+          "subLogs": [],
+          "duration": 422
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Number Resources')]",
+            "{\"id\":\"f.A6F61C9DE71FE143991966E43D077A42.d.9012A76F2A64DA026BC699EF867E9613.e.55\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 632
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Number Resources')], using=xpath}"
+          ],
+          "result": "id: f.A6F61C9DE71FE143991966E43D077A42.d.9012A76F2A64DA026BC699EF867E9613.e.55",
+          "subLogs": [],
+          "duration": 350
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Number Resources')]",
+            "{\"id\":\"f.A6F61C9DE71FE143991966E43D077A42.d.9012A76F2A64DA026BC699EF867E9613.e.55\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 730
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I want to navigate to website",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 10241,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And website is loaded",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 711,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Click on \"More information\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 9627,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then \"Further Reading\" is to be visible",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1869,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Click on \"Numbers\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 8141,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then \"Number Resources\" is to be visible",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 10885,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

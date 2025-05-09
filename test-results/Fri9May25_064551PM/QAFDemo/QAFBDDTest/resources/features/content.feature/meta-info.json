@@ -1,0 +1,141 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "Feature": " Sample Test Run in BDD - Content",
+        "groups": [
+          "Contents",
+          "LoadWebsite"
+        ],
+        "lineNo": 24.0,
+        "name": "Load Website Check",
+        "reference": "resources/features/content.feature",
+        "resultFileName": "LoadWebsiteCheck",
+        "sign": "resources.features.content.feature.Load Website Check()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1746796540698,
+      "duration": 10801,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "Feature": " Sample Test Run in BDD - Content",
+        "groups": [
+          "Contents",
+          "MoreInformation"
+        ],
+        "lineNo": 29.0,
+        "name": "Navigate and Click on More Information",
+        "reference": "resources/features/content.feature",
+        "resultFileName": "NavigateAndClickOnMoreInformation",
+        "sign": "resources.features.content.feature.Navigate and Click on More Information()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1746796540698,
+      "duration": 18929,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [
+        {
+          "RFC": "RFC 2606",
+          "DOMAINS": "Top Level DNS",
+          "__index": 1.0
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "Feature": " Sample Test Run in BDD - Content",
+        "groups": [
+          "Contents",
+          "RFCDomains"
+        ],
+        "lineNo": 45.0,
+        "name": "Navigate and Click on RFCs",
+        "reference": "resources/features/content.feature",
+        "resultFileName": "NavigateAndClickOnRFCs",
+        "sign": "resources.features.content.feature.Navigate and Click on RFCs( java.util.Map)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1746796540706,
+      "duration": 30733,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "Feature": " Sample Test Run in BDD - Content",
+        "groups": [
+          "Contents",
+          "ReservedDomains"
+        ],
+        "lineNo": 36.0,
+        "name": "Navigate and Click on Reserved Domains",
+        "reference": "resources/features/content.feature",
+        "resultFileName": "NavigateAndClickOnReservedDomains",
+        "sign": "resources.features.content.feature.Navigate and Click on Reserved Domains()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1746796540698,
+      "duration": 31654,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "retryCount": null,
+      "type": "test",
+      "args": [
+        {
+          "RFC": "RFC 6761",
+          "DOMAINS": "Special-Use Domain",
+          "__index": 2
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "Feature": " Sample Test Run in BDD - Content",
+        "groups": [
+          "Contents",
+          "RFCDomains"
+        ],
+        "lineNo": 45,
+        "name": "Navigate and Click on RFCs",
+        "reference": "resources/features/content.feature",
+        "resultFileName": "NavigateAndClickOnRFCs5",
+        "sign": "resources.features.content.feature.Navigate and Click on RFCs( java.util.Map)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1746796571442,
+      "duration": 15929,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}
