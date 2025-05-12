@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="37.408" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="89.204" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/Users/dhakshath/.sdkman/candidates/java/11.0.27-amzn/lib"/>
-    <property name="sun.java.command" value="/Users/dhakshath/Documents/BandWidth/target/surefire/surefirebooter-20250509184824444_3.jar /Users/dhakshath/Documents/BandWidth/target/surefire 2025-05-09T18-48-24_411-jvmRun1 surefire-20250509184824444_1tmp surefire_0-20250509184824444_2tmp"/>
+    <property name="sun.java.command" value="/Users/dhakshath/Documents/BandWidth/target/surefire/surefirebooter-20250509191446664_3.jar /Users/dhakshath/Documents/BandWidth/target/surefire 2025-05-09T19-14-46_633-jvmRun1 surefire-20250509191446664_1tmp surefire_0-20250509191446664_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/dhakshath/Documents/BandWidth/target/test-classes:/Users/dhakshath/Documents/BandWidth/target/classes:/Users/dhakshath/Documents/BandWidth/.m2/org/seleniumhq/selenium/selenium-java/4.30.0/selenium-java-4.30.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/seleniumhq/selenium/selenium-api/4.30.0/selenium-api-4.30.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/seleniumhq/selenium/selenium-chrome-driver/4.30.0/selenium-chrome-driver-4.30.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/seleniumhq/selenium/selenium-chromium-driver/4.30.0/selenium-chromium-driver-4.30.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/seleniumhq/selenium/selenium-json/4.30.0/selenium-json-4.30.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/seleniumhq/selenium/selenium-manager/4.30.0/selenium-manager-4.30.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/seleniumhq/selenium/selenium-devtools-v132/4.30.0/selenium-devtools-v132-4.30.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/seleniumhq/selenium/selenium-devtools-v133/4.30.0/selenium-devtools-v133-4.30.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/seleniumhq/selenium/selenium-devtools-v134/4.30.0/selenium-devtools-v134-4.30.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/seleniumhq/selenium/selenium-edge-driver/4.30.0/selenium-edge-driver-4.30.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/seleniumhq/selenium/selenium-firefox-driver/4.30.0/selenium-firefox-driver-4.30.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/seleniumhq/selenium/selenium-http/4.30.0/selenium-http-4.30.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/seleniumhq/selenium/selenium-ie-driver/4.30.0/selenium-ie-driver-4.30.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/seleniumhq/selenium/selenium-remote-driver/4.30.0/selenium-remote-driver-4.30.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/io/opentelemetry/opentelemetry-api/1.48.0/opentelemetry-api-1.48.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/io/opentelemetry/opentelemetry-context/1.48.0/opentelemetry-context-1.48.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/io/opentelemetry/opentelemetry-exporter-logging/1.48.0/opentelemetry-exporter-logging-1.48.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/io/opentelemetry/opentelemetry-sdk-common/1.48.0/opentelemetry-sdk-common-1.48.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.48.0/opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.48.0/opentelemetry-sdk-extension-autoconfigure-1.48.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/io/opentelemetry/opentelemetry-sdk-trace/1.48.0/opentelemetry-sdk-trace-1.48.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/io/opentelemetry/opentelemetry-sdk/1.48.0/opentelemetry-sdk-1.48.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/io/opentelemetry/opentelemetry-sdk-metrics/1.48.0/opentelemetry-sdk-metrics-1.48.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/io/opentelemetry/opentelemetry-sdk-logs/1.48.0/opentelemetry-sdk-logs-1.48.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/net/bytebuddy/byte-buddy/1.17.2/byte-buddy-1.17.2.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/seleniumhq/selenium/selenium-os/4.30.0/selenium-os-4.30.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/seleniumhq/selenium/selenium-safari-driver/4.30.0/selenium-safari-driver-4.30.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/seleniumhq/selenium/selenium-support/4.30.0/selenium-support-4.30.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/dhakshath/Documents/BandWidth/.m2/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/dhakshath/Documents/BandWidth/.m2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/dhakshath/Documents/BandWidth/.m2/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/qmetry/qaf/4.0.0-RC3/qaf-4.0.0-RC3.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/sun/jersey/jersey-client/1.19/jersey-client-1.19.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.jar:/Users/dhakshath/Documents/BandWidth/.m2/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/sun/jersey/contribs/jersey-multipart/1.19/jersey-multipart-1.19.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/jvnet/mimepull/mimepull/1.9.3/mimepull-1.9.3.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/sun/jersey/contribs/jersey-apache-client/1.17.1/jersey-apache-client-1.17.1.jar:/Users/dhakshath/Documents/BandWidth/.m2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/aspectj/aspectjrt/1.9.5/aspectjrt-1.9.5.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/aspectj/aspectjtools/1.9.5/aspectjtools-1.9.5.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/apache/poi/poi/5.0.0/poi-5.0.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/apache/poi/poi-ooxml-lite/5.0.0/poi-ooxml-lite-5.0.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/apache/xmlbeans/xmlbeans/4.0.0/xmlbeans-4.0.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/apache/poi/poi-ooxml/5.0.0/poi-ooxml-5.0.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/commons-codec/commons-codec/1.8/commons-codec-1.8.jar:/Users/dhakshath/Documents/BandWidth/.m2/commons-configuration/commons-configuration/1.7/commons-configuration-1.7.jar:/Users/dhakshath/Documents/BandWidth/.m2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/dhakshath/Documents/BandWidth/.m2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/dhakshath/Documents/BandWidth/.m2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/dhakshath/Documents/BandWidth/.m2/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/dhakshath/Documents/BandWidth/.m2/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar:/Users/dhakshath/Documents/BandWidth/.m2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/google/inject/guice/3.0/guice-3.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/json/json/20231013/json-20231013.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/apache/commons/commons-jexl3/3.2.1/commons-jexl3-3.2.1.jar:/Users/dhakshath/Documents/BandWidth/.m2/io/github/bonigarcia/webdrivermanager/5.6.3/webdrivermanager-5.6.3.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/github/docker-java/docker-java/3.3.4/docker-java-3.3.4.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/github/docker-java/docker-java-core/3.3.4/docker-java-core-3.3.4.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/github/docker-java/docker-java-api/3.3.4/docker-java-api-3.3.4.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/github/docker-java/docker-java-transport-httpclient5/3.3.4/docker-java-transport-httpclient5-3.3.4.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/github/docker-java/docker-java-transport/3.3.4/docker-java-transport-3.3.4.jar:/Users/dhakshath/Documents/BandWidth/.m2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/apache/httpcomponents/core5/httpcore5/5.2.1/httpcore5-5.2.1.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar:/Users/dhakshath/Documents/BandWidth/.m2/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar:/Users/dhakshath/Documents/BandWidth/.m2/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar:"/>
@@ -36,7 +36,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/dhakshath/Documents/BandWidth/target/surefire/surefirebooter-20250509184824444_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/dhakshath/Documents/BandWidth/target/surefire/surefirebooter-20250509191446664_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.27+6-LTS"/>
@@ -69,104 +69,74 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="Navigate and Click on Header Domain" classname="com.qmetry.qaf.automation.step.client.Scenario" time="29.742">
+  <testcase name="Navigate and Click on Header About" classname="com.qmetry.qaf.automation.step.client.Scenario" time="41.851">
     <system-out><![CDATA[Added "QAFMethodSelector"
 include groups []
  exclude groups: [] Scanarios location: resources/features/headers.feature 
-==============  Step : Test-3 >>> Given I want to navigate to website ==============
-==============  Step : Test-1 >>> Given I want to navigate to website ==============
-==============  Step : Test-4 >>> Given I want to navigate to website ==============
-==============  Step : Test-2 >>> Given I want to navigate to website ==============
 Setting LambaTest Test Name : Chrome BDD - Test
-Setting LambaTest Test Name : Chrome BDD - Test
-Setting LambaTest Test Name : Chrome BDD - Test
-Setting LambaTest Test Name : Chrome BDD - Test
-==============  Step : Test-4 >>> And website is loaded ==============
-==============  Step : Test-2 >>> And website is loaded ==============
 Website Loaded => Example Domain
-==============  Step : Test-4 >>> When I Click on "More information" ==============
-==============  Step : Test-3 >>> And website is loaded ==============
-Website Loaded => Example Domain
-==============  Step : Test-2 >>> When I Click on "More information" ==============
-Website Loaded => Example Domain
-==============  Step : Test-3 >>> When I Click on "More information" ==============
-==============  Step : Test-1 >>> And website is loaded ==============
-Website Loaded => Example Domain
-==============  Step : Test-1 >>> When I Click on "More information" ==============
 Website Action => Clicked on More information
-==============  Step : Test-4 >>> Then "Further Reading" is to be visible ==============
 Website Present => Further Reading
+Website Action => Clicked on About
+Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'About us')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fb00bee499636d277d08713570a5e27
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Unable to get class com.qmetry.qaf.automation.step.client.TestStepExporter from jar /Users/dhakshath/Documents/BandWidth/.m2/com/qmetry/qaf/4.0.0-RC3/qaf-4.0.0-RC3.jar
+May 09, 2025 7:14:47 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+]]></system-err>
+  </testcase>
+  <testcase name="Navigate and Click on Header Numbers" classname="com.qmetry.qaf.automation.step.client.Scenario" time="15.222">
+    <system-out><![CDATA[Website Loaded => Example Domain
 Website Action => Clicked on More information
-==============  Step : Test-2 >>> Then "Further Reading" is to be visible ==============
-==============  Step : Test-4 >>> When I Click on "Domains" ==============
+Website Present => Further Reading
+Website Action => Clicked on Numbers
+Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'Number Resources')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fb00bee499636d277d08713570a5e27
+]]></system-out>
+  </testcase>
+  <testcase name="Navigate and Click on Header Protocols" classname="com.qmetry.qaf.automation.step.client.Scenario" time="16.917">
+    <system-out><![CDATA[Website Loaded => Example Domain
+Website Action => Clicked on More information
+Website Present => Further Reading
+Website Action => Clicked on Protocols
+Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'Protocol Registries')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fb00bee499636d277d08713570a5e27
+]]></system-out>
+  </testcase>
+  <testcase name="Navigate and Click on Header Domain" classname="com.qmetry.qaf.automation.step.client.Scenario" time="14.517">
+    <system-out><![CDATA[Website Loaded => Example Domain
+Website Action => Clicked on More information
 Website Present => Further Reading
 element not interactable
   (Session info: chrome=136.0.7103.93)
 Build info: version: '4.30.0', revision: '509c7f17cc*'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'
 Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
-Command: [375678be0b5ad06cbc838c189f7a62bb, clickElement {id=f.D1BD54EDDFE5F299599888901D13DEF3.d.EBD400C1EBFBF4179E780369E22B1B01.e.44}]
+Command: [8fb00bee499636d277d08713570a5e27, clickElement {id=f.5C83EB25C094F01273D0D3A64A7E5934.d.3273D064461B098515DA54C9B48B4D25.e.43}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 375678be0b5ad06cbc838c189f7a62bb
-==============  Step : Test-4 >>> Then "Domain Name Services" is to be visible ==============
-Website Action => Clicked on More information
-==============  Step : Test-3 >>> Then "Further Reading" is to be visible ==============
-Website Present => Further Reading
-Website Action => Clicked on More information
-==============  Step : Test-1 >>> Then "Further Reading" is to be visible ==============
-==============  Step : Test-2 >>> When I Click on "Numbers" ==============
-Website Present => Further Reading
-==============  Step : Test-3 >>> When I Click on "Protocols" ==============
-==============  Step : Test-1 >>> When I Click on "About" ==============
-Website Action => Clicked on Protocols
-==============  Step : Test-3 >>> Then "Protocol Registries" is to be visible ==============
-Website Action => Clicked on Numbers
-==============  Step : Test-2 >>> Then "Number Resources" is to be visible ==============
-Website Action => Clicked on About
-==============  Step : Test-1 >>> Then "About us" is to be visible ==============
+Session ID: 8fb00bee499636d277d08713570a5e27
 Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'Domain Name Services')] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.30.0', revision: '509c7f17cc*'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'
 Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 375678be0b5ad06cbc838c189f7a62bb
-]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Unable to get class com.qmetry.qaf.automation.step.client.TestStepExporter from jar /Users/dhakshath/Documents/BandWidth/.m2/com/qmetry/qaf/4.0.0-RC3/qaf-4.0.0-RC3.jar
-Unable to get class com.qmetry.qaf.automation.step.client.TestStepExporter from jar /Users/dhakshath/Documents/BandWidth/.m2/com/qmetry/qaf/4.0.0-RC3/qaf-4.0.0-RC3.jar
-Unable to get class com.qmetry.qaf.automation.step.client.TestStepExporter from jar /Users/dhakshath/Documents/BandWidth/.m2/com/qmetry/qaf/4.0.0-RC3/qaf-4.0.0-RC3.jar
-Unable to get class com.qmetry.qaf.automation.step.client.TestStepExporter from jar /Users/dhakshath/Documents/BandWidth/.m2/com/qmetry/qaf/4.0.0-RC3/qaf-4.0.0-RC3.jar
-May 09, 2025 6:48:24 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
-INFO: Using OpenTelemetry for tracing
-]]></system-err>
-  </testcase>
-  <testcase name="Navigate and Click on Header Protocols" classname="com.qmetry.qaf.automation.step.client.Scenario" time="35.158">
-    <system-out><![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'Protocol Registries')] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.30.0', revision: '509c7f17cc*'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'
-Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 703d7004b28b215ba18d651d769a0444
-]]></system-out>
-  </testcase>
-  <testcase name="Navigate and Click on Header Numbers" classname="com.qmetry.qaf.automation.step.client.Scenario" time="36.598">
-    <system-out><![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'Number Resources')] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.30.0', revision: '509c7f17cc*'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'
-Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cf409cf997342c91a095aa816eaff809
-]]></system-out>
-  </testcase>
-  <testcase name="Navigate and Click on Header About" classname="com.qmetry.qaf.automation.step.client.Scenario" time="37.178">
-    <system-out><![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'About us')] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.30.0', revision: '509c7f17cc*'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '11.0.27'
-Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.93 (d15f7e0b7b45..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cb7fd467a7a00717b10990ea149874a0
+Session ID: 8fb00bee499636d277d08713570a5e27
 ]]></system-out>
   </testcase>
 </testsuite>

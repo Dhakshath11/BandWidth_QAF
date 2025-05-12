@@ -1,0 +1,504 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I want to navigate to website",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://example.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2559
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "website is loaded",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1, using=tag name}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.C44F2A366ED3BAE3310501C165D819C9.e.3",
+          "subLogs": [],
+          "duration": 181
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.tagName: h1",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.C44F2A366ED3BAE3310501C165D819C9.e.3\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 226
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1, using=tag name}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.C44F2A366ED3BAE3310501C165D819C9.e.3",
+          "subLogs": [],
+          "duration": 82
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.tagName: h1",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.C44F2A366ED3BAE3310501C165D819C9.e.3\"}"
+          ],
+          "result": "getElementText:Example Domain",
+          "subLogs": [],
+          "duration": 123
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I Click on {message}",
+      "args": [
+        "[More information]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'More information')], using=xpath}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.C44F2A366ED3BAE3310501C165D819C9.e.4",
+          "subLogs": [],
+          "duration": 99
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(text(),'More information')]",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.C44F2A366ED3BAE3310501C165D819C9.e.4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 6232
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "{message} is to be visible",
+      "args": [
+        "[Further Reading]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Further Reading')], using=xpath}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.1D64E205C87272901BF4A45279ECF0CE.e.19",
+          "subLogs": [],
+          "duration": 99
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'Further Reading')]",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.1D64E205C87272901BF4A45279ECF0CE.e.19\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 187
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'Further Reading')], using=xpath}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.1D64E205C87272901BF4A45279ECF0CE.e.19",
+          "subLogs": [],
+          "duration": 82
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //*[contains(text(),'Further Reading')]",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.1D64E205C87272901BF4A45279ECF0CE.e.19\"}"
+          ],
+          "result": "getElementText:Further Reading",
+          "subLogs": [],
+          "duration": 91
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I Click on {message}",
+      "args": [
+        "[About]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'About')], using=xpath}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.1D64E205C87272901BF4A45279ECF0CE.e.45",
+          "subLogs": [],
+          "duration": 126
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[contains(text(),'About')]",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.1D64E205C87272901BF4A45279ECF0CE.e.45\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 6089
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "{message} is to be visible",
+      "args": [
+        "[About us]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'About us')], using=xpath}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51",
+          "subLogs": [],
+          "duration": 206
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'About us')]",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 196
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'About us')], using=xpath}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51",
+          "subLogs": [],
+          "duration": 163
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'About us')]",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 490
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'About us')], using=xpath}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51",
+          "subLogs": [],
+          "duration": 131
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'About us')]",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 107
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'About us')], using=xpath}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51",
+          "subLogs": [],
+          "duration": 120
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'About us')]",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 116
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'About us')], using=xpath}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51",
+          "subLogs": [],
+          "duration": 89
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'About us')]",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 119
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'About us')], using=xpath}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51",
+          "subLogs": [],
+          "duration": 136
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'About us')]",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 107
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'About us')], using=xpath}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51",
+          "subLogs": [],
+          "duration": 79
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'About us')]",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 109
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'About us')], using=xpath}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51",
+          "subLogs": [],
+          "duration": 112
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'About us')]",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 158
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'About us')], using=xpath}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51",
+          "subLogs": [],
+          "duration": 143
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'About us')]",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 121
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'About us')], using=xpath}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51",
+          "subLogs": [],
+          "duration": 86
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'About us')]",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 97
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'About us')], using=xpath}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51",
+          "subLogs": [],
+          "duration": 103
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'About us')]",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 164
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'About us')], using=xpath}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51",
+          "subLogs": [],
+          "duration": 82
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'About us')]",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 159
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'About us')], using=xpath}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51",
+          "subLogs": [],
+          "duration": 133
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'About us')]",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 104
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[contains(text(),'About us')], using=xpath}"
+          ],
+          "result": "id: f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51",
+          "subLogs": [],
+          "duration": 91
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[contains(text(),'About us')]",
+            "{\"id\":\"f.5C83EB25C094F01273D0D3A64A7E5934.d.653438E31AF01593D003B258C928A3A3.e.51\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 114
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I want to navigate to website",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 16495,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And website is loaded",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 616,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Click on \"More information\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 6340,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then \"Further Reading\" is to be visible",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 1739,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Click on \"About\"",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 6215,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then \"About us\" is to be visible",
+      "type": "TestStepPass",
+      "screenshot": null,
+      "duration": 10395,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": null
+}

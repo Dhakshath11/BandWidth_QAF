@@ -1,0 +1,100 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "And website is loaded",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When I Click on \"More information\"",
+      "args": [
+        "[More information]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then \"Further Reading\" is to be visible",
+      "args": [
+        "[Further Reading]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When I Click on \"Protocols\"",
+      "args": [
+        "[Protocols]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then \"Protocol Registries\" is to be visible",
+      "args": [
+        "[Protocol Registries]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "And website is loaded",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Click on \"More information\"",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then \"Further Reading\" is to be visible",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Click on \"Protocols\"",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then \"Protocol Registries\" is to be visible",
+      "type": "TestStep",
+      "screenshot": null,
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Index 1 out of bounds for length 1",
+      "type": "Fail",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1\n\tat .Given I want to navigate to website(resources/features/headers.feature:34)\n\tat com.bandwidth_QAF.stepdefs.Hooks.beforExecute(Hooks.java:20)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.beforExecute(BaseTestStep.java:181)\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:144)\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:128)\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:237)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)\n"
+}

@@ -17,7 +17,7 @@ public class Hooks implements QAFTestStepListener, QAFWebDriverCommandListener {
 
     @Override
     public void beforExecute(StepExecutionTracker stepExecutionTracker) {
-        System.out.println("==============  Step : " + stepExecutionTracker.getScenario().getId().split("=")[1].split("@")[0].split("BDD-")[1] + " >>> " + stepExecutionTracker.getStep().getDescription() + " ==============");
+        //System.out.println("==============  Step : " + stepExecutionTracker.getScenario().getId().split("=")[1].split("@")[0].split("BDD-")[1] + " >>> " + stepExecutionTracker.getStep().getDescription() + " ==============");
     }
 
     @Override
