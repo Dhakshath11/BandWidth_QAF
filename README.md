@@ -1,5 +1,5 @@
 # BandWidth
-A short simple project 
+A short simple Qmetry Automation Framework - QAF project 
 
 Refer Document : https://docs.google.com/document/d/1lfE8Gg-OfOtkWQ1QOwYcGCMxNm_6K2G-/edit?usp=sharing&ouid=112131444974196636984&rtpof=true&sd=true
 
