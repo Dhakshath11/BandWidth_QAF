@@ -17,7 +17,7 @@ testDiscovery:
 
 testRunnerCommand: |
   echo "Running test: $test"
-  mvn test -Dmaven.repo.local=.m2 -Dsurefire.suiteXmlFiles=testNG_BDD.xml -Dscenario.file.loc="$test"
+  mvn test -Dmaven.repo.local=.m2 -Dsurefire.suiteXmlFiles=testNG_BDD.xml -Dscenario.file.loc="$test" -Dremote.server=$LT_USERNAME:$LT_ACCESS_KEY@hub.lambdatest.com
 
 cacheKey: '{{ checksum "pom.xml" }}'
 cacheDirectories:

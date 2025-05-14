@@ -13,7 +13,7 @@ testDiscovery:
 
 testRunnerCommand: |
   echo "Running test: $test"
-  mvn test -Dmaven.repo.local=.m2 -Dsurefire.suiteXmlFiles=testNG_BDD.xml -Dscenario.file.loc="$test"
+  mvn test -Dmaven.repo.local=.m2 -Dsurefire.suiteXmlFiles=testNG_BDD.xml -Dscenario.file.loc="$test" -Dremote.server=$LT_USERNAME:$LT_ACCESS_KEY@hub.lambdatest.com
 
 cacheKey: '{{ checksum "pom.xml" }}'
 cacheDirectories:
@@ -26,7 +26,8 @@ pre:
 jobLabel: ['QAF', 'Linux', 'AutoSplit', 'Features: All']
 
 project:
-  name: Test Project Auto
+  name: Dhakshath11/BandWidth_QAF
+  id: 01JV6TNBK0NBBG852GWQTZCVD7
 differentialUpload:
   enabled: true
   ttlHours: 24
