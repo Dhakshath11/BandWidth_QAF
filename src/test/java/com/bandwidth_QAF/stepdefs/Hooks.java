@@ -1,5 +1,6 @@
 package com.bandwidth_QAF.stepdefs;
 
+import com.qmetry.qaf.automation.keys.ApplicationProperties;
 import com.qmetry.qaf.automation.step.QAFTestStepListener;
 import com.qmetry.qaf.automation.step.StepExecutionTracker;
 import com.qmetry.qaf.automation.ui.webdriver.CommandTracker;
@@ -42,7 +43,7 @@ public class Hooks implements QAFTestStepListener, QAFWebDriverCommandListener {
 
     @Override
     public void beforeInitialize(Capabilities desiredCapabilities) {
-
+        System.out.println("----- >>> Remote Server URL : " + ApplicationProperties.REMOTE_SERVER.getStringVal());
     }
 
     @Override

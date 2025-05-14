@@ -1,143 +1,156 @@
-version: "0.1"
-user: onpremezztt
-key: LT_ry2st1BzTpPPhWDaEnUGtdQC09Ixq5uDQV6rJ3Mpb1FxVdN
-testSuites: []
-pre: [echo "Starting Test...", 'mvn dependency:resolve -Dmaven.repo.local=.m2']
-preDirectives:
-    commands: [echo "Starting Test...", 'mvn dependency:resolve -Dmaven.repo.local=.m2']
-    maxRetries: 0
-    shell: ""
+accessibilityJob: false
+alwaysRunPostSteps: false
+appium: false
+autosplit: true
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+cacheDirectories:
+    - .m2
+cacheKey: '{{ checksum "pom.xml" }}'
+captureScreenRecordingForScenarios: false
+codeDirectory: BandWidth
+collectLocalGitData: false
+combineTasksInMatrixMode: false
+concurrency: 4
+cypress: false
+differentialUpload:
+    enabled: true
+    forcedDisabled: false
+    ttlHours: 24
+dynamicAllocation: false
+errorCategorizedOnFailureOnly: false
+framework:
+    additional_args: null
+    args:
+        appId: ""
+        appPath: ""
+        artifacts: false
+        avoidAppLaunch: false
+        deviceSelectionStrategy: ""
+        devices: []
+        disableReleaseDevice: false
+        filters:
+            attributes: []
+        fixedIP: ""
+        isRealMobile: null
+        isVirtualDevice: false
+        language: ""
+        locale: ""
+        minorOsVersion: false
+        mitmProxy: false
+        mobileDC: null
+        networkHar: false
+        otherApps: []
+        platformName: ""
+        playwrightRD: false
+        preservedDevice: false
+        queueTimeout: 0
+        resignApp: true
+        shards:
+            mappings: []
+        skipInstall: false
+        skipUninstallPreviousBuild: false
+        skipXMLOnRun: false
+        testSuiteAppId: ""
+        testSuitePath: ""
+        uninstallPreviousBuild: false
+        xcTestPlanId: ""
+        xcTestPlanPath: ""
+    baseCommand: ""
+    defaultReports: false
+    discoveryFlags: []
+    discoveryMode: ""
+    discoveryType: ""
+    downloadURL: ""
+    flags: []
+    isTestNGXMLSuite: false
+    licenseKey: ""
+    name: ""
+    runnerFlags: []
+    toscaArgs: null
+    userdefinediscovery: false
+    version: ""
     workingDirectory: ""
-postDirectives:
+globalPost:
     commands: []
+    completed: false
+    mode: ""
+    runson: ""
     shell: ""
     workingDirectory: ""
+globalPre:
+    commands: []
+    completed: false
+    maxRetries: 0
+    mode: ""
+    runson: ""
+    shell: ""
+    workingDirectory: ""
+jobID: faeefefc-6d27-4419-9daf-ba9686885fec
 jobLabel:
     - QAF
     - Linux
     - AutoSplit
     - 'Features: All'
-runson: linux
-autosplit: true
-concurrency: 4
-testDiscovery:
-    command: snooper --targetOs=mac --featureFilePaths=resources/features/ --frameWork=java | sed 's/:.*//' | uniq
-    mode: remote
-    type: raw
-testRunnerCommand: |
-    echo "Running test: $test"
-    mvn test -Dmaven.repo.local=.m2 -Dsurefire.suiteXmlFiles=testNG_BDD.xml -Dscenario.file.loc="$test"
-tunnelOpts:
-    testsPerTunnel: 10
-cacheDirectories:
-    - .m2
-cacheKey: '{{ checksum "pom.xml" }}'
-jobID: 24b70bc6-5040-4b02-8ec0-c5e84332bb77
-codeDirectory: BandWidth
-framework:
-    name: ""
-    flags: []
-    discoveryFlags: []
-    discoveryMode: ""
-    discoveryType: ""
-    runnerFlags: []
-    workingDirectory: ""
-    isTestNGXMLSuite: false
-    defaultReports: false
-    args:
-        appPath: ""
-        testSuitePath: ""
-        xcTestPlanPath: ""
-        shards:
-            mappings: []
-        filters:
-            attributes: []
-        devices: []
-        deviceSelectionStrategy: ""
-        appId: ""
-        testSuiteAppId: ""
-        xcTestPlanId: ""
-        skipXMLOnRun: false
-        skipInstall: false
-        disableReleaseDevice: false
-        platformName: ""
-        isRealMobile: null
-        avoidAppLaunch: false
-        queueTimeout: 0
-        uninstallPreviousBuild: false
-        language: ""
-        locale: ""
-        preservedDevice: false
-        fixedIP: ""
-        resignApp: true
-        minorOsVersion: false
-        playwrightRD: false
-        mobileDC: null
-        skipUninstallPreviousBuild: false
-        isVirtualDevice: false
-        mitmProxy: false
-        networkHar: false
-        artifacts: false
-        otherApps: []
-    additional_args: null
-    licenseKey: ""
-    userdefinediscovery: false
-    toscaArgs: null
-    version: ""
-    downloadURL: ""
-    baseCommand: ""
-cypress: false
-betaFeature:
-    setPartiallyCompletedAsCompleted: false
-combineTasksInMatrixMode: false
-captureScreenRecordingForScenarios: false
+key: LT_ry2st1BzTpPPhWDaEnUGtdQC09Ixq5uDQV6rJ3Mpb1FxVdN
+localHTTPProxy: ""
 maxRetriesPreSteps: 0
-triggerMode: false
-sourcePayload:
-    verifySSL: true
-collectLocalGitData: false
-dynamicAllocation: false
-appium: false
+meta: {}
 platformConfig: null
-differentialUpload:
-    enabled: true
-    ttlHours: 24
-    forcedDisabled: false
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+pre:
+    - echo "Starting Test..."
+    - mvn dependency:resolve -Dmaven.repo.local=.m2
+    - printenv
+    - echo $LT_USERNAME and $LT_ACCESS_KEY
+preDirectives:
+    commands:
+        - echo "Starting Test..."
+        - mvn dependency:resolve -Dmaven.repo.local=.m2
+        - printenv
+        - echo $LT_USERNAME and $LT_ACCESS_KEY
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
 project:
     id: 01JV6TNBK0NBBG852GWQTZCVD7
     name: Dhakshath11/BandWidth_QAF
     type: custom
-meta: {}
-alwaysRunPostSteps: false
-errorCategorizedOnFailureOnly: false
-testDiscoveryResultV3: []
-storageType: ""
-localHTTPProxy: ""
+projectpath: ""
 regionConfig:
-    vm: []
     storage:
-        region: ""
         enabled: false
         name: ""
         platform: azure
-waitForArtefactsUpload: false
-unzipPayload: false
-projectpath: ""
-accessibilityJob: false
-globalPre:
-    mode: ""
-    commands: []
-    maxRetries: 0
-    shell: ""
-    workingDirectory: ""
-    completed: false
-    runson: ""
-globalPost:
-    mode: ""
-    commands: []
-    shell: ""
-    workingDirectory: ""
-    completed: false
-    runson: ""
+        region: ""
+    vm: []
+runson: linux
+runtime:
+    language: java
+    version: "11"
+    addons: []
+    opts: {}
 slackChannel: ""
+sourcePayload:
+    verifySSL: true
+storageType: ""
+testDiscovery:
+    command: snooper --targetOs=mac --featureFilePaths=resources/features/ --frameWork=java | sed 's/:.*//' | uniq
+    mode: remote
+    type: raw
+testDiscoveryResultV3: []
+testRunnerCommand: |
+    echo "Running test: $test"
+    mvn test -Dmaven.repo.local=.m2 -Dsurefire.suiteXmlFiles=testNG_BDD.xml -Dscenario.file.loc="$test" -Dremote.server=$LT_USERNAME:$LT_ACCESS_KEY@hub.lambdatest.com -Dchrome.additional.capabilities='{"LT:Options":{"build":"QAF Execution","name":"QAF-chrome","browserVersion":"latest","network":true,"console":true,"screenResolution":"2560x1440","selenium_version":"4.27.0"}}'
+testSuites: []
+triggerMode: false
+tunnelOpts:
+    testsPerTunnel: 10
+unzipPayload: false
+user: onpremezztt
+version: "0.1"
+waitForArtefactsUpload: false
 whiteLabelProductTag: ""

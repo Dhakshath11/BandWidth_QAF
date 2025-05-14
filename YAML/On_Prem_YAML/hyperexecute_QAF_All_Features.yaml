@@ -4,6 +4,10 @@ runson: linux
 autosplit: true
 concurrency: 4
 
+runtime:
+  language: java
+  version: 11
+
 testDiscovery:
   type: raw
   mode: remote
@@ -13,7 +17,8 @@ testDiscovery:
 
 testRunnerCommand: |
   echo "Running test: $test"
-  mvn test -Dmaven.repo.local=.m2 -Dsurefire.suiteXmlFiles=testNG_BDD.xml -Dscenario.file.loc="$test" -Dremote.server=$LT_USERNAME:$LT_ACCESS_KEY@hub.lambdatest.com
+  mvn test -Dmaven.repo.local=.m2 -Dsurefire.suiteXmlFiles=testNG_BDD.xml -Dscenario.file.loc="$test" -Dremote.server=$LT_USERNAME:$LT_ACCESS_KEY@hub.lambdatest.com -Dchrome.additional.capabilities='{"LT:Options":{"build":"QAF Execution","name":"QAF-chrome","browserVersion":"latest","network":trgue,"console":true,"screenResolution":"2560x1440","selenium_version":"4.27.0"}}'
+
 
 cacheKey: '{{ checksum "pom.xml" }}'
 cacheDirectories:
@@ -22,8 +27,10 @@ cacheDirectories:
 pre:
   - echo "Starting Test..."
   - mvn dependency:resolve -Dmaven.repo.local=.m2
+  - printenv
+  - echo $LT_USERNAME and $LT_ACCESS_KEY
 
-jobLabel: ['QAF', 'Linux', 'AutoSplit', 'Features: All']
+jobLabel: [ 'QAF', 'Linux', 'AutoSplit', 'Features: All' ]
 
 project:
   name: Dhakshath11/BandWidth_QAF
