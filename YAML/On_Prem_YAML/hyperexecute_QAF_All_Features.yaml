@@ -17,7 +17,7 @@ testDiscovery:
 
 testRunnerCommand: |
   echo "Running test: $test"
-  mvn test -Dmaven.repo.local=.m2 -Dsurefire.suiteXmlFiles=testNG_BDD.xml -Dscenario.file.loc="$test" -Dremote.server=$LT_USERNAME:$LT_ACCESS_KEY@hub.lambdatest.com -Dchrome.additional.capabilities='{"LT:Options":{"build":"QAF Execution","name":"QAF-chrome","browserVersion":"latest","network":trgue,"console":true,"screenResolution":"2560x1440","selenium_version":"4.27.0"}}'
+  mvn test -Dmaven.repo.local=.m2 -Dsurefire.suiteXmlFiles=testNG_BDD.xml -Dscenario.file.loc="$test" -Dremote.server=$LT_USERNAME:$LT_ACCESS_KEY@hub.lambdatest.com -Dchrome.additional.capabilities='{"LT:Options":{"build":"QAF Execution","name":"QAF-chrome","browserVersion":"latest","network":true,"console":true,"screenResolution":"2560x1440","selenium_version":"4.27.0"}}'
 
 
 cacheKey: '{{ checksum "pom.xml" }}'
